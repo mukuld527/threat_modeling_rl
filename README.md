@@ -1,3 +1,25 @@
+# Threat Modeling Reinforcement Learning Project
+
+This project implements a PPO-based reinforcement learning agent that evaluates threat-modeling justification notes and classifies them as valid, invalid, or requiring clarification.
+
+## How to Run
+
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Add your notes dataset:
+   data/notes.csv
+   Columns: note, label
+
+3. Train the agent:
+   python train.py
+
+4. View reward curve:
+   reward_curve.png
+
+5. Run demo:
+   python demo.py
+
 Project Structure —
 
 ```text
