@@ -23,23 +23,26 @@ This project implements a PPO-based reinforcement learning agent that evaluates 
 Project Structure —
 
 ```text
+
 threat_modeling_rl/
 │
 ├── data/
-│   ├── notes.csv                 # historical notes + labels
+│   ├── notes.csv                       # historical notes + labels
 │
 ├── env/
-│   ├── threat_env.py             # custom RL environment
+│   ├── threat_env.py                   # custom RL environment
 │
 ├── models/
-│   ├── ppo_agent.py              # PPO agent
+│   ├── ppo_agent.py                    # PPO agent
 │
 ├── utils/
-│   ├── preprocess.py             # text preprocessing + embeddings
-│   ├── plot.py                   # reward curve plotting
+│   ├── preprocess.py                   # text preprocessing + embeddings
+│   ├── plot.py                         # reward curve plotting
+│   ├── countermeasure_generation.py    # for generating the list of threat modeling countermeasures
 │
-├── train.py                      # main training script
-├── demo.py                       # agent demonstration script
-├── requirements.txt              # dependencies
-└── README.md                     # instructions for running project
+├── train.py                            # main training script
+├── demo.py                             # agent demonstration script
+├── requirements.txt                    # dependencies
+└── README.md                           # instructions for running project
+
 ```
