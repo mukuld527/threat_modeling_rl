@@ -2,6 +2,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill
 from openpyxl.worksheet.table import Table, TableStyleInfo
 from openpyxl.utils import get_column_letter
+
 '''
 Considering the STRIDE threat modeling framework, all OWASP Top 10s, all NIST frameworks, and all other available applicable frameworks, 
 Generate a CSV file containing threat modeling countermeasure titles and their corresponding description and remediation solutions. 
