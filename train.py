@@ -1,37 +1,23 @@
-import numpy as np
-from env.threat_env import ThreatModelingEnv
+from utils.preprocess import embed_notes
+import pandas as pd
 from models.ppo_agent import PPOAgent
-from utils.preprocess import load_data, embed_notes
-from utils.plot import plot_rewards
+import numpy as np
 
-notes, labels = load_data("data/notes.csv")
+# Load unlabeled test data
+df = pd.read_csv("data/unlabeled_notes.csv")
+notes = df["note"].tolist()
+
+# Embed notes
 embeddings = embed_notes(notes)
 
-env = ThreatModelingEnv(notes, labels, embeddings)
+# Load trained agent
 agent = PPOAgent(state_dim=768, action_dim=4)
 
-all_rewards = []
+print("=== DEMO ON UNLABELED NOTES ===")
 
-for episode in range(50):
-    state = env.reset()
-    done = False
-    episode_rewards = []
-    states, actions, rewards = [], [], []
+for i, (note, emb) in enumerate(zip(notes, embeddings)):
+    action = agent.act(emb)
+    print(f"\nNote {i+1}: {note}")
+    print(f"Agent Prediction (0=valid,1=invalid,2=clarification,3=feedback): {action}")
 
-    while not done:
-        action = agent.act(state)
-        next_state, reward, done, _ = env.step(action)
-
-        states.append(state)
-        actions.append(action)
-        rewards.append(reward)
-        episode_rewards.append(reward)
-
-        state = next_state
-
-    loss = agent.update(states, actions, rewards)
-    all_rewards.append(sum(episode_rewards))
-    print(f"Episode {episode+1} Reward: {sum(episode_rewards)} Loss: {loss}")
-
-plot_rewards(all_rewards)
-
+print("\n=== END OF DEMO ===")
