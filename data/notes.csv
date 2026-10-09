@@ -1,1 +1,1001 @@
-
+countermeasure_title,countermeasure_name,status,note,label
+T1,Implement rate limiting for brute-force protection,Not Applicable,We think this control is implemented but are not fully sure.,1
+T2,Enable audit logging for critical events,Fixed,Clarify how audit logs are protected from tampering.,2
+T3,Validate all user inputs,Fixed,We think this control is implemented but are not fully sure.,1
+T4,Validate all user inputs,Not Applicable,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T5,Configure HTTPS securely,In Progress,Add references to the architecture diagram for clarity.,3
+T6,Implement secure password storage,Not Applicable,The control is implemented as described and meets all requirements.,0
+T7,Enable audit logging for critical events,Fixed,The control is implemented as described and meets all requirements.,0
+T8,Validate all user inputs,In Progress,Input validation is enforced on all user-facing fields.,0
+T9,Ensure secure deletion of sensitive data,Fixed,Explain how input validation handles nested JSON payloads.,2
+T10,Implement rate limiting for brute-force protection,In Progress,The control is implemented as described and meets all requirements.,0
+T11,Implement secure session management,In Progress,Explain how input validation handles nested JSON payloads.,2
+T12,Validate all user inputs,Fixed,Add screenshots showing where the control is implemented.,3
+T13,Enable audit logging for critical events,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T14,Implement secure session management,Fixed,Please update the justification to include specific evidence.,3
+T15,Implement secure password storage,In Progress,Add references to the architecture diagram for clarity.,3
+T16,Implement rate limiting for brute-force protection,Fixed,Add screenshots showing where the control is implemented.,3
+T17,Implement secure session management,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T18,Configure HTTPS securely,In Progress,Add screenshots showing where the control is implemented.,3
+T19,Implement secure session management,Fixed,The control is implemented as described and meets all requirements.,0
+T20,Encrypt sensitive data using latest encryption mechanisms,In Progress,Input validation is enforced on all user-facing fields.,0
+T21,Ensure secure deletion of sensitive data,In Progress,Add screenshots showing where the control is implemented.,3
+T22,Enable audit logging for critical events,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T23,Implement secure key rotation,Fixed,Provide more detail on how this control mitigates the threat.,3
+T24,Implement secure session management,Fixed,Need more details on how encryption keys are rotated.,2
+T25,Implement secure session management,Fixed,Please update the justification to include specific evidence.,3
+T26,Ensure secure deletion of sensitive data,In Progress,We skipped this control due to time constraints.,1
+T27,Validate all user inputs,Fixed,Add references to the architecture diagram for clarity.,3
+T28,Enable audit logging for critical events,Not Applicable,The control is implemented as described and meets all requirements.,0
+T29,Implement rate limiting for brute-force protection,Not Applicable,The control is not applicable but no justification provided.,1
+T30,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T31,Implement secure password storage,Fixed,The control is implemented as described and meets all requirements.,0
+T32,Implement rate limiting for brute-force protection,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T33,Enable audit logging for critical events,Fixed,Provide more detail on how this control mitigates the threat.,3
+T34,Implement secure key rotation,Fixed,Add references to the architecture diagram for clarity.,3
+T35,Implement secure key rotation,Not Applicable,Please update the justification to include specific evidence.,3
+T36,Implement rate limiting for brute-force protection,Fixed,Provide more detail on how this control mitigates the threat.,3
+T37,Implement secure password storage,In Progress,Clarify how access is revoked for terminated employees.,2
+T38,Protect API endpoints with authentication,Not Applicable,More information needed on session timeout configuration.,2
+T39,Implement secure key rotation,Fixed,The control is not applicable but no justification provided.,1
+T40,Enable audit logging for critical events,Not Applicable,More information needed on session timeout configuration.,2
+T41,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T42,Implement secure session management,Fixed,We skipped this control due to time constraints.,1
+T43,Implement secure session management,In Progress,"The team will add this later, so marking complete for now.",1
+T44,Implement secure key rotation,In Progress,Provide more detail on how this control mitigates the threat.,3
+T45,Implement rate limiting for brute-force protection,Not Applicable,Add references to the architecture diagram for clarity.,3
+T46,Validate all user inputs,Not Applicable,Add screenshots showing where the control is implemented.,3
+T47,Validate all user inputs,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T48,Protect API endpoints with authentication,In Progress,Input validation is enforced on all user-facing fields.,0
+T49,Implement secure key rotation,Not Applicable,This is not needed because our app is internal only.,1
+T50,Enable audit logging for critical events,In Progress,We think this control is implemented but are not fully sure.,1
+T51,Implement secure password storage,Fixed,The control is implemented as described and meets all requirements.,0
+T52,Encrypt sensitive data using latest encryption mechanisms,Fixed,Please update the justification to include specific evidence.,3
+T53,Ensure secure deletion of sensitive data,Not Applicable,The control is not applicable but no justification provided.,1
+T54,Implement secure session management,In Progress,"The team will add this later, so marking complete for now.",1
+T55,Ensure secure deletion of sensitive data,Not Applicable,This is not needed because our app is internal only.,1
+T56,Implement rate limiting for brute-force protection,Fixed,Please update the justification to include specific evidence.,3
+T57,Implement secure session management,Fixed,Audit logging is configured according to enterprise standards.,0
+T58,Implement rate limiting for brute-force protection,Not Applicable,Add screenshots showing where the control is implemented.,3
+T59,Validate all user inputs,In Progress,This is not needed because our app is internal only.,1
+T60,Implement secure key rotation,In Progress,Audit logging is configured according to enterprise standards.,0
+T61,Configure HTTPS securely,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T62,Enable audit logging for critical events,Fixed,Clarify how audit logs are protected from tampering.,2
+T63,Validate all user inputs,In Progress,The control is not applicable but no justification provided.,1
+T64,Validate all user inputs,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T65,Ensure secure deletion of sensitive data,Fixed,The control is not applicable but no justification provided.,1
+T66,Implement rate limiting for brute-force protection,Not Applicable,Need more details on how encryption keys are rotated.,2
+T67,Implement secure session management,Fixed,Clarify how access is revoked for terminated employees.,2
+T68,Implement rate limiting for brute-force protection,Fixed,Need more details on how encryption keys are rotated.,2
+T69,Ensure secure deletion of sensitive data,In Progress,Need more details on how encryption keys are rotated.,2
+T70,Implement secure password storage,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T71,Enable audit logging for critical events,In Progress,We think this control is implemented but are not fully sure.,1
+T72,Implement secure session management,Fixed,Input validation is enforced on all user-facing fields.,0
+T73,Implement secure key rotation,In Progress,Add references to the architecture diagram for clarity.,3
+T74,Validate all user inputs,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T75,Implement rate limiting for brute-force protection,Not Applicable,This is not needed because our app is internal only.,1
+T76,Implement secure key rotation,Fixed,Need more details on how encryption keys are rotated.,2
+T77,Protect API endpoints with authentication,Not Applicable,The control is not applicable but no justification provided.,1
+T78,Implement rate limiting for brute-force protection,In Progress,We think this control is implemented but are not fully sure.,1
+T79,Implement secure session management,Not Applicable,More information needed on session timeout configuration.,2
+T80,Implement secure session management,Not Applicable,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T81,Protect API endpoints with authentication,Not Applicable,Encryption is applied to data in transit and at rest.,0
+T82,Implement secure key rotation,In Progress,More information needed on session timeout configuration.,2
+T83,Enable audit logging for critical events,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T84,Validate all user inputs,In Progress,This is not needed because our app is internal only.,1
+T85,Implement secure password storage,In Progress,Need more details on how encryption keys are rotated.,2
+T86,Implement secure password storage,In Progress,We think this control is implemented but are not fully sure.,1
+T87,Implement secure key rotation,In Progress,Need more details on how encryption keys are rotated.,2
+T88,Implement secure key rotation,Fixed,More information needed on session timeout configuration.,2
+T89,Encrypt sensitive data using latest encryption mechanisms,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T90,Implement secure password storage,Fixed,The control is implemented as described and meets all requirements.,0
+T91,Protect API endpoints with authentication,Not Applicable,Encryption is applied to data in transit and at rest.,0
+T92,Encrypt sensitive data using latest encryption mechanisms,Fixed,Need more details on how encryption keys are rotated.,2
+T93,Encrypt sensitive data using latest encryption mechanisms,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T94,Validate all user inputs,In Progress,The control is not applicable but no justification provided.,1
+T95,Protect API endpoints with authentication,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T96,Implement secure key rotation,Fixed,Clarify how access is revoked for terminated employees.,2
+T97,Implement secure key rotation,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T98,Ensure secure deletion of sensitive data,Not Applicable,Need more details on how encryption keys are rotated.,2
+T99,Implement secure session management,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T100,Validate all user inputs,Fixed,Add screenshots showing where the control is implemented.,3
+T101,Implement rate limiting for brute-force protection,Not Applicable,The control is implemented as described and meets all requirements.,0
+T102,Ensure secure deletion of sensitive data,In Progress,"The team will add this later, so marking complete for now.",1
+T103,Implement secure key rotation,Not Applicable,The control is not applicable but no justification provided.,1
+T104,Encrypt sensitive data using latest encryption mechanisms,In Progress,Encryption is applied to data in transit and at rest.,0
+T105,Implement rate limiting for brute-force protection,Not Applicable,Please update the justification to include specific evidence.,3
+T106,Configure HTTPS securely,Not Applicable,Add screenshots showing where the control is implemented.,3
+T107,Implement secure password storage,Fixed,We think this control is implemented but are not fully sure.,1
+T108,Configure HTTPS securely,Not Applicable,The control is not applicable but no justification provided.,1
+T109,Implement secure password storage,Fixed,Need more details on how encryption keys are rotated.,2
+T110,Implement secure session management,In Progress,Need more details on how encryption keys are rotated.,2
+T111,Configure HTTPS securely,In Progress,Encryption is applied to data in transit and at rest.,0
+T112,Implement secure password storage,Fixed,The control is implemented as described and meets all requirements.,0
+T113,Validate all user inputs,Fixed,Add references to the architecture diagram for clarity.,3
+T114,Implement secure key rotation,In Progress,This is not needed because our app is internal only.,1
+T115,Implement secure password storage,Fixed,Add references to the architecture diagram for clarity.,3
+T116,Configure HTTPS securely,In Progress,Audit logging is configured according to enterprise standards.,0
+T117,Ensure secure deletion of sensitive data,In Progress,Need more details on how encryption keys are rotated.,2
+T118,Validate all user inputs,Fixed,This is not needed because our app is internal only.,1
+T119,Protect API endpoints with authentication,In Progress,Provide more detail on how this control mitigates the threat.,3
+T120,Configure HTTPS securely,Not Applicable,We think this control is implemented but are not fully sure.,1
+T121,Encrypt sensitive data using latest encryption mechanisms,In Progress,Provide more detail on how this control mitigates the threat.,3
+T122,Implement secure session management,Not Applicable,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T123,Ensure secure deletion of sensitive data,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T124,Implement secure key rotation,In Progress,Clarify how audit logs are protected from tampering.,2
+T125,Implement rate limiting for brute-force protection,In Progress,This is not needed because our app is internal only.,1
+T126,Implement secure password storage,In Progress,We think this control is implemented but are not fully sure.,1
+T127,Implement secure key rotation,Fixed,Explain how input validation handles nested JSON payloads.,2
+T128,Implement rate limiting for brute-force protection,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T129,Implement secure session management,Fixed,More information needed on session timeout configuration.,2
+T130,Ensure secure deletion of sensitive data,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T131,Ensure secure deletion of sensitive data,Not Applicable,Add references to the architecture diagram for clarity.,3
+T132,Configure HTTPS securely,In Progress,More information needed on session timeout configuration.,2
+T133,Ensure secure deletion of sensitive data,Fixed,We think this control is implemented but are not fully sure.,1
+T134,Implement secure session management,Not Applicable,More information needed on session timeout configuration.,2
+T135,Ensure secure deletion of sensitive data,In Progress,This is not needed because our app is internal only.,1
+T136,Configure HTTPS securely,Not Applicable,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T137,Enable audit logging for critical events,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T138,Implement secure key rotation,Fixed,We skipped this control due to time constraints.,1
+T139,Encrypt sensitive data using latest encryption mechanisms,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T140,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T141,Enable audit logging for critical events,In Progress,"The team will add this later, so marking complete for now.",1
+T142,Implement secure key rotation,Fixed,Explain how input validation handles nested JSON payloads.,2
+T143,Implement rate limiting for brute-force protection,Fixed,Add references to the architecture diagram for clarity.,3
+T144,Implement secure password storage,Fixed,We skipped this control due to time constraints.,1
+T145,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Add references to the architecture diagram for clarity.,3
+T146,Configure HTTPS securely,In Progress,Input validation is enforced on all user-facing fields.,0
+T147,Implement secure key rotation,Not Applicable,Need more details on how encryption keys are rotated.,2
+T148,Validate all user inputs,Fixed,Clarify how access is revoked for terminated employees.,2
+T149,Implement rate limiting for brute-force protection,Fixed,"The team will add this later, so marking complete for now.",1
+T150,Implement rate limiting for brute-force protection,Fixed,Add screenshots showing where the control is implemented.,3
+T151,Enable audit logging for critical events,Fixed,We skipped this control due to time constraints.,1
+T152,Encrypt sensitive data using latest encryption mechanisms,Fixed,Please update the justification to include specific evidence.,3
+T153,Configure HTTPS securely,In Progress,Please update the justification to include specific evidence.,3
+T154,Implement rate limiting for brute-force protection,Fixed,Please update the justification to include specific evidence.,3
+T155,Implement secure password storage,Fixed,The control is not applicable but no justification provided.,1
+T156,Protect API endpoints with authentication,Fixed,Please update the justification to include specific evidence.,3
+T157,Ensure secure deletion of sensitive data,Fixed,We think this control is implemented but are not fully sure.,1
+T158,Ensure secure deletion of sensitive data,Fixed,More information needed on session timeout configuration.,2
+T159,Ensure secure deletion of sensitive data,Not Applicable,More information needed on session timeout configuration.,2
+T160,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T161,Enable audit logging for critical events,Not Applicable,This is not needed because our app is internal only.,1
+T162,Implement secure key rotation,In Progress,We skipped this control due to time constraints.,1
+T163,Protect API endpoints with authentication,In Progress,We skipped this control due to time constraints.,1
+T164,Protect API endpoints with authentication,In Progress,Input validation is enforced on all user-facing fields.,0
+T165,Implement secure session management,In Progress,Input validation is enforced on all user-facing fields.,0
+T166,Implement secure session management,Fixed,Add screenshots showing where the control is implemented.,3
+T167,Ensure secure deletion of sensitive data,Not Applicable,We think this control is implemented but are not fully sure.,1
+T168,Implement secure password storage,Not Applicable,Need more details on how encryption keys are rotated.,2
+T169,Protect API endpoints with authentication,Not Applicable,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T170,Configure HTTPS securely,In Progress,We think this control is implemented but are not fully sure.,1
+T171,Protect API endpoints with authentication,In Progress,Provide more detail on how this control mitigates the threat.,3
+T172,Ensure secure deletion of sensitive data,In Progress,Add references to the architecture diagram for clarity.,3
+T173,Protect API endpoints with authentication,In Progress,This is not needed because our app is internal only.,1
+T174,Configure HTTPS securely,In Progress,This is not needed because our app is internal only.,1
+T175,Ensure secure deletion of sensitive data,In Progress,Audit logging is configured according to enterprise standards.,0
+T176,Implement secure password storage,Fixed,We think this control is implemented but are not fully sure.,1
+T177,Configure HTTPS securely,Not Applicable,This is not needed because our app is internal only.,1
+T178,Ensure secure deletion of sensitive data,Fixed,Clarify how access is revoked for terminated employees.,2
+T179,Configure HTTPS securely,In Progress,We skipped this control due to time constraints.,1
+T180,Protect API endpoints with authentication,Fixed,More information needed on session timeout configuration.,2
+T181,Implement rate limiting for brute-force protection,Not Applicable,Need more details on how encryption keys are rotated.,2
+T182,Ensure secure deletion of sensitive data,Not Applicable,This is not needed because our app is internal only.,1
+T183,Configure HTTPS securely,Not Applicable,More information needed on session timeout configuration.,2
+T184,Implement secure key rotation,In Progress,More information needed on session timeout configuration.,2
+T185,Implement rate limiting for brute-force protection,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T186,Implement secure password storage,In Progress,We think this control is implemented but are not fully sure.,1
+T187,Encrypt sensitive data using latest encryption mechanisms,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T188,Ensure secure deletion of sensitive data,In Progress,Clarify how access is revoked for terminated employees.,2
+T189,Enable audit logging for critical events,Not Applicable,More information needed on session timeout configuration.,2
+T190,Implement rate limiting for brute-force protection,In Progress,Clarify how audit logs are protected from tampering.,2
+T191,Implement rate limiting for brute-force protection,Not Applicable,"The team will add this later, so marking complete for now.",1
+T192,Implement secure password storage,In Progress,Explain how input validation handles nested JSON payloads.,2
+T193,Implement secure password storage,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T194,Validate all user inputs,Fixed,This is not needed because our app is internal only.,1
+T195,Implement secure key rotation,Fixed,This is not needed because our app is internal only.,1
+T196,Implement secure session management,Not Applicable,The control is not applicable but no justification provided.,1
+T197,Implement secure session management,Fixed,Add references to the architecture diagram for clarity.,3
+T198,Implement secure session management,Not Applicable,We skipped this control due to time constraints.,1
+T199,Implement secure key rotation,In Progress,Need more details on how encryption keys are rotated.,2
+T200,Ensure secure deletion of sensitive data,Not Applicable,Add references to the architecture diagram for clarity.,3
+T201,Implement rate limiting for brute-force protection,Fixed,The control is not applicable but no justification provided.,1
+T202,Enable audit logging for critical events,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T203,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T204,Implement rate limiting for brute-force protection,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T205,Implement secure session management,In Progress,Provide more detail on how this control mitigates the threat.,3
+T206,Enable audit logging for critical events,Fixed,"The team will add this later, so marking complete for now.",1
+T207,Ensure secure deletion of sensitive data,In Progress,The control is not applicable but no justification provided.,1
+T208,Ensure secure deletion of sensitive data,Fixed,Clarify how access is revoked for terminated employees.,2
+T209,Encrypt sensitive data using latest encryption mechanisms,In Progress,Clarify how audit logs are protected from tampering.,2
+T210,Implement secure password storage,In Progress,Input validation is enforced on all user-facing fields.,0
+T211,Enable audit logging for critical events,In Progress,Audit logging is configured according to enterprise standards.,0
+T212,Implement secure key rotation,Not Applicable,Need more details on how encryption keys are rotated.,2
+T213,Ensure secure deletion of sensitive data,Not Applicable,Add screenshots showing where the control is implemented.,3
+T214,Implement secure key rotation,In Progress,The control is not applicable but no justification provided.,1
+T215,Implement rate limiting for brute-force protection,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T216,Enable audit logging for critical events,Fixed,Add references to the architecture diagram for clarity.,3
+T217,Ensure secure deletion of sensitive data,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T218,Ensure secure deletion of sensitive data,In Progress,We think this control is implemented but are not fully sure.,1
+T219,Configure HTTPS securely,Fixed,Encryption is applied to data in transit and at rest.,0
+T220,Validate all user inputs,In Progress,Clarify how access is revoked for terminated employees.,2
+T221,Enable audit logging for critical events,In Progress,Provide more detail on how this control mitigates the threat.,3
+T222,Enable audit logging for critical events,Fixed,Provide more detail on how this control mitigates the threat.,3
+T223,Ensure secure deletion of sensitive data,Not Applicable,More information needed on session timeout configuration.,2
+T224,Enable audit logging for critical events,In Progress,Clarify how access is revoked for terminated employees.,2
+T225,Encrypt sensitive data using latest encryption mechanisms,In Progress,Explain how input validation handles nested JSON payloads.,2
+T226,Ensure secure deletion of sensitive data,Not Applicable,The control is implemented as described and meets all requirements.,0
+T227,Enable audit logging for critical events,Fixed,Need more details on how encryption keys are rotated.,2
+T228,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T229,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,The control is implemented as described and meets all requirements.,0
+T230,Encrypt sensitive data using latest encryption mechanisms,In Progress,We think this control is implemented but are not fully sure.,1
+T231,Protect API endpoints with authentication,In Progress,Add screenshots showing where the control is implemented.,3
+T232,Encrypt sensitive data using latest encryption mechanisms,Fixed,We skipped this control due to time constraints.,1
+T233,Enable audit logging for critical events,Not Applicable,Need more details on how encryption keys are rotated.,2
+T234,Implement secure session management,Not Applicable,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T235,Implement secure password storage,In Progress,We think this control is implemented but are not fully sure.,1
+T236,Implement secure session management,Fixed,Input validation is enforced on all user-facing fields.,0
+T237,Protect API endpoints with authentication,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T238,Protect API endpoints with authentication,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T239,Implement secure key rotation,Fixed,This is not needed because our app is internal only.,1
+T240,Implement secure password storage,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T241,Protect API endpoints with authentication,In Progress,The control is not applicable but no justification provided.,1
+T242,Enable audit logging for critical events,In Progress,We skipped this control due to time constraints.,1
+T243,Implement secure password storage,In Progress,We think this control is implemented but are not fully sure.,1
+T244,Ensure secure deletion of sensitive data,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T245,Ensure secure deletion of sensitive data,In Progress,The control is implemented as described and meets all requirements.,0
+T246,Implement secure password storage,In Progress,Explain how input validation handles nested JSON payloads.,2
+T247,Enable audit logging for critical events,Not Applicable,Add screenshots showing where the control is implemented.,3
+T248,Validate all user inputs,Not Applicable,The control is not applicable but no justification provided.,1
+T249,Implement secure password storage,In Progress,Clarify how audit logs are protected from tampering.,2
+T250,Validate all user inputs,In Progress,Encryption is applied to data in transit and at rest.,0
+T251,Configure HTTPS securely,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T252,Implement secure key rotation,Not Applicable,We skipped this control due to time constraints.,1
+T253,Ensure secure deletion of sensitive data,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T254,Configure HTTPS securely,Fixed,"The team will add this later, so marking complete for now.",1
+T255,Implement rate limiting for brute-force protection,Not Applicable,Add references to the architecture diagram for clarity.,3
+T256,Validate all user inputs,In Progress,Clarify how audit logs are protected from tampering.,2
+T257,Implement secure key rotation,Fixed,Need more details on how encryption keys are rotated.,2
+T258,Validate all user inputs,Not Applicable,We skipped this control due to time constraints.,1
+T259,Ensure secure deletion of sensitive data,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T260,Configure HTTPS securely,Not Applicable,Add references to the architecture diagram for clarity.,3
+T261,Implement secure password storage,In Progress,Provide more detail on how this control mitigates the threat.,3
+T262,Implement rate limiting for brute-force protection,Fixed,Provide more detail on how this control mitigates the threat.,3
+T263,Ensure secure deletion of sensitive data,Fixed,Need more details on how encryption keys are rotated.,2
+T264,Implement secure key rotation,In Progress,Clarify how audit logs are protected from tampering.,2
+T265,Implement secure password storage,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T266,Implement secure key rotation,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T267,Ensure secure deletion of sensitive data,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T268,Protect API endpoints with authentication,Not Applicable,Please update the justification to include specific evidence.,3
+T269,Enable audit logging for critical events,Fixed,Need more details on how encryption keys are rotated.,2
+T270,Validate all user inputs,Fixed,Audit logging is configured according to enterprise standards.,0
+T271,Validate all user inputs,In Progress,"The team will add this later, so marking complete for now.",1
+T272,Implement secure password storage,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T273,Protect API endpoints with authentication,Fixed,The control is implemented as described and meets all requirements.,0
+T274,Implement secure key rotation,In Progress,The control is implemented as described and meets all requirements.,0
+T275,Implement secure password storage,In Progress,We skipped this control due to time constraints.,1
+T276,Validate all user inputs,Not Applicable,Add screenshots showing where the control is implemented.,3
+T277,Ensure secure deletion of sensitive data,In Progress,We skipped this control due to time constraints.,1
+T278,Enable audit logging for critical events,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T279,Configure HTTPS securely,Fixed,Need more details on how encryption keys are rotated.,2
+T280,Protect API endpoints with authentication,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T281,Implement secure password storage,Fixed,Encryption is applied to data in transit and at rest.,0
+T282,Protect API endpoints with authentication,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T283,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,We skipped this control due to time constraints.,1
+T284,Configure HTTPS securely,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T285,Implement secure password storage,Fixed,Clarify how access is revoked for terminated employees.,2
+T286,Implement rate limiting for brute-force protection,Fixed,Audit logging is configured according to enterprise standards.,0
+T287,Implement secure password storage,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T288,Implement secure key rotation,Fixed,Add references to the architecture diagram for clarity.,3
+T289,Enable audit logging for critical events,Not Applicable,We skipped this control due to time constraints.,1
+T290,Ensure secure deletion of sensitive data,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T291,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T292,Implement secure key rotation,In Progress,"The team will add this later, so marking complete for now.",1
+T293,Enable audit logging for critical events,Not Applicable,This is not needed because our app is internal only.,1
+T294,Implement secure session management,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T295,Implement secure password storage,In Progress,The control is not applicable but no justification provided.,1
+T296,Validate all user inputs,Fixed,Input validation is enforced on all user-facing fields.,0
+T297,Enable audit logging for critical events,Fixed,Provide more detail on how this control mitigates the threat.,3
+T298,Encrypt sensitive data using latest encryption mechanisms,Fixed,Clarify how access is revoked for terminated employees.,2
+T299,Implement secure key rotation,Fixed,Audit logging is configured according to enterprise standards.,0
+T300,Encrypt sensitive data using latest encryption mechanisms,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T301,Implement rate limiting for brute-force protection,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T302,Implement secure session management,In Progress,Audit logging is configured according to enterprise standards.,0
+T303,Configure HTTPS securely,In Progress,The control is implemented as described and meets all requirements.,0
+T304,Implement secure password storage,In Progress,More information needed on session timeout configuration.,2
+T305,Enable audit logging for critical events,In Progress,Need more details on how encryption keys are rotated.,2
+T306,Protect API endpoints with authentication,Not Applicable,We think this control is implemented but are not fully sure.,1
+T307,Implement secure session management,In Progress,Add screenshots showing where the control is implemented.,3
+T308,Implement secure key rotation,Fixed,The control is not applicable but no justification provided.,1
+T309,Implement rate limiting for brute-force protection,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T310,Configure HTTPS securely,Fixed,The control is not applicable but no justification provided.,1
+T311,Enable audit logging for critical events,Fixed,Add references to the architecture diagram for clarity.,3
+T312,Ensure secure deletion of sensitive data,In Progress,We skipped this control due to time constraints.,1
+T313,Configure HTTPS securely,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T314,Ensure secure deletion of sensitive data,Fixed,Input validation is enforced on all user-facing fields.,0
+T315,Validate all user inputs,Not Applicable,Add references to the architecture diagram for clarity.,3
+T316,Implement secure key rotation,Not Applicable,Please update the justification to include specific evidence.,3
+T317,Enable audit logging for critical events,Not Applicable,"The team will add this later, so marking complete for now.",1
+T318,Configure HTTPS securely,In Progress,More information needed on session timeout configuration.,2
+T319,Implement rate limiting for brute-force protection,Fixed,Audit logging is configured according to enterprise standards.,0
+T320,Implement secure key rotation,Not Applicable,Add screenshots showing where the control is implemented.,3
+T321,Configure HTTPS securely,Not Applicable,We skipped this control due to time constraints.,1
+T322,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,We think this control is implemented but are not fully sure.,1
+T323,Implement rate limiting for brute-force protection,Fixed,More information needed on session timeout configuration.,2
+T324,Protect API endpoints with authentication,In Progress,The control is implemented as described and meets all requirements.,0
+T325,Validate all user inputs,Fixed,Add screenshots showing where the control is implemented.,3
+T326,Protect API endpoints with authentication,In Progress,Encryption is applied to data in transit and at rest.,0
+T327,Implement secure password storage,Fixed,Provide more detail on how this control mitigates the threat.,3
+T328,Implement rate limiting for brute-force protection,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T329,Implement rate limiting for brute-force protection,In Progress,We think this control is implemented but are not fully sure.,1
+T330,Implement secure key rotation,Not Applicable,Need more details on how encryption keys are rotated.,2
+T331,Protect API endpoints with authentication,Fixed,Explain how input validation handles nested JSON payloads.,2
+T332,Validate all user inputs,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T333,Implement rate limiting for brute-force protection,Fixed,Encryption is applied to data in transit and at rest.,0
+T334,Implement secure session management,Fixed,This is not needed because our app is internal only.,1
+T335,Implement rate limiting for brute-force protection,In Progress,The control is not applicable but no justification provided.,1
+T336,Validate all user inputs,In Progress,Add screenshots showing where the control is implemented.,3
+T337,Enable audit logging for critical events,Not Applicable,This is not needed because our app is internal only.,1
+T338,Implement rate limiting for brute-force protection,Fixed,Please update the justification to include specific evidence.,3
+T339,Enable audit logging for critical events,In Progress,Clarify how audit logs are protected from tampering.,2
+T340,Validate all user inputs,Not Applicable,We think this control is implemented but are not fully sure.,1
+T341,Implement secure session management,Not Applicable,Encryption is applied to data in transit and at rest.,0
+T342,Implement secure key rotation,In Progress,The control is implemented as described and meets all requirements.,0
+T343,Encrypt sensitive data using latest encryption mechanisms,Fixed,This is not needed because our app is internal only.,1
+T344,Configure HTTPS securely,Not Applicable,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T345,Validate all user inputs,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T346,Validate all user inputs,Fixed,Add references to the architecture diagram for clarity.,3
+T347,Implement secure key rotation,In Progress,Provide more detail on how this control mitigates the threat.,3
+T348,Implement secure session management,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T349,Configure HTTPS securely,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T350,Ensure secure deletion of sensitive data,Fixed,Clarify how audit logs are protected from tampering.,2
+T351,Protect API endpoints with authentication,Fixed,We think this control is implemented but are not fully sure.,1
+T352,Implement secure password storage,In Progress,Provide more detail on how this control mitigates the threat.,3
+T353,Implement secure session management,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T354,Enable audit logging for critical events,In Progress,This is not needed because our app is internal only.,1
+T355,Ensure secure deletion of sensitive data,Not Applicable,The control is implemented as described and meets all requirements.,0
+T356,Encrypt sensitive data using latest encryption mechanisms,Fixed,"The team will add this later, so marking complete for now.",1
+T357,Implement rate limiting for brute-force protection,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T358,Implement secure password storage,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T359,Validate all user inputs,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T360,Validate all user inputs,In Progress,Clarify how audit logs are protected from tampering.,2
+T361,Validate all user inputs,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T362,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T363,Validate all user inputs,In Progress,Encryption is applied to data in transit and at rest.,0
+T364,Enable audit logging for critical events,Fixed,"The team will add this later, so marking complete for now.",1
+T365,Ensure secure deletion of sensitive data,Fixed,Input validation is enforced on all user-facing fields.,0
+T366,Ensure secure deletion of sensitive data,Not Applicable,More information needed on session timeout configuration.,2
+T367,Protect API endpoints with authentication,In Progress,Encryption is applied to data in transit and at rest.,0
+T368,Implement rate limiting for brute-force protection,In Progress,Explain how input validation handles nested JSON payloads.,2
+T369,Enable audit logging for critical events,Fixed,We skipped this control due to time constraints.,1
+T370,Implement secure key rotation,In Progress,Need more details on how encryption keys are rotated.,2
+T371,Implement secure key rotation,Not Applicable,The control is not applicable but no justification provided.,1
+T372,Implement secure session management,Fixed,Audit logging is configured according to enterprise standards.,0
+T373,Protect API endpoints with authentication,Not Applicable,More information needed on session timeout configuration.,2
+T374,Implement secure key rotation,In Progress,Add references to the architecture diagram for clarity.,3
+T375,Implement secure session management,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T376,Protect API endpoints with authentication,Not Applicable,Add screenshots showing where the control is implemented.,3
+T377,Implement secure password storage,Fixed,Need more details on how encryption keys are rotated.,2
+T378,Implement secure key rotation,Not Applicable,We skipped this control due to time constraints.,1
+T379,Implement secure session management,In Progress,We think this control is implemented but are not fully sure.,1
+T380,Implement secure password storage,In Progress,We think this control is implemented but are not fully sure.,1
+T381,Configure HTTPS securely,Fixed,Need more details on how encryption keys are rotated.,2
+T382,Ensure secure deletion of sensitive data,In Progress,Add screenshots showing where the control is implemented.,3
+T383,Implement rate limiting for brute-force protection,In Progress,Clarify how audit logs are protected from tampering.,2
+T384,Implement secure key rotation,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T385,Enable audit logging for critical events,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T386,Implement secure password storage,Not Applicable,Please update the justification to include specific evidence.,3
+T387,Protect API endpoints with authentication,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T388,Configure HTTPS securely,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T389,Implement secure password storage,In Progress,Explain how input validation handles nested JSON payloads.,2
+T390,Configure HTTPS securely,In Progress,Add references to the architecture diagram for clarity.,3
+T391,Implement secure session management,Fixed,Please update the justification to include specific evidence.,3
+T392,Implement rate limiting for brute-force protection,In Progress,We think this control is implemented but are not fully sure.,1
+T393,Protect API endpoints with authentication,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T394,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Add screenshots showing where the control is implemented.,3
+T395,Enable audit logging for critical events,In Progress,Need more details on how encryption keys are rotated.,2
+T396,Implement secure session management,In Progress,Need more details on how encryption keys are rotated.,2
+T397,Implement rate limiting for brute-force protection,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T398,Validate all user inputs,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T399,Implement secure password storage,Fixed,Add screenshots showing where the control is implemented.,3
+T400,Protect API endpoints with authentication,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T401,Implement secure session management,Not Applicable,Please update the justification to include specific evidence.,3
+T402,Ensure secure deletion of sensitive data,Not Applicable,Encryption is applied to data in transit and at rest.,0
+T403,Protect API endpoints with authentication,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T404,Configure HTTPS securely,In Progress,Input validation is enforced on all user-facing fields.,0
+T405,Implement rate limiting for brute-force protection,In Progress,Encryption is applied to data in transit and at rest.,0
+T406,Ensure secure deletion of sensitive data,Fixed,This is not needed because our app is internal only.,1
+T407,Protect API endpoints with authentication,Fixed,Clarify how audit logs are protected from tampering.,2
+T408,Configure HTTPS securely,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T409,Implement secure session management,Fixed,Add screenshots showing where the control is implemented.,3
+T410,Validate all user inputs,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T411,Enable audit logging for critical events,Fixed,Clarify how audit logs are protected from tampering.,2
+T412,Implement secure session management,Not Applicable,Encryption is applied to data in transit and at rest.,0
+T413,Implement secure key rotation,Not Applicable,Encryption is applied to data in transit and at rest.,0
+T414,Implement rate limiting for brute-force protection,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T415,Implement secure session management,Not Applicable,We skipped this control due to time constraints.,1
+T416,Implement secure session management,In Progress,We think this control is implemented but are not fully sure.,1
+T417,Implement secure key rotation,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T418,Implement secure password storage,In Progress,Clarify how access is revoked for terminated employees.,2
+T419,Implement secure key rotation,Fixed,The control is implemented as described and meets all requirements.,0
+T420,Validate all user inputs,Not Applicable,This is not needed because our app is internal only.,1
+T421,Implement secure password storage,Not Applicable,We think this control is implemented but are not fully sure.,1
+T422,Implement rate limiting for brute-force protection,In Progress,The control is implemented as described and meets all requirements.,0
+T423,Ensure secure deletion of sensitive data,Fixed,We think this control is implemented but are not fully sure.,1
+T424,Implement secure key rotation,Fixed,We think this control is implemented but are not fully sure.,1
+T425,Protect API endpoints with authentication,Fixed,Audit logging is configured according to enterprise standards.,0
+T426,Implement secure session management,Fixed,Add references to the architecture diagram for clarity.,3
+T427,Ensure secure deletion of sensitive data,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T428,Configure HTTPS securely,In Progress,Clarify how audit logs are protected from tampering.,2
+T429,Implement secure password storage,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T430,Enable audit logging for critical events,Not Applicable,Please update the justification to include specific evidence.,3
+T431,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,"The team will add this later, so marking complete for now.",1
+T432,Implement secure password storage,Fixed,Provide more detail on how this control mitigates the threat.,3
+T433,Configure HTTPS securely,In Progress,Explain how input validation handles nested JSON payloads.,2
+T434,Implement rate limiting for brute-force protection,Fixed,We think this control is implemented but are not fully sure.,1
+T435,Implement secure key rotation,Fixed,We skipped this control due to time constraints.,1
+T436,Implement secure session management,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T437,Implement secure session management,Not Applicable,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T438,Implement secure session management,In Progress,Add references to the architecture diagram for clarity.,3
+T439,Ensure secure deletion of sensitive data,In Progress,Provide more detail on how this control mitigates the threat.,3
+T440,Validate all user inputs,Fixed,Input validation is enforced on all user-facing fields.,0
+T441,Enable audit logging for critical events,Fixed,Input validation is enforced on all user-facing fields.,0
+T442,Validate all user inputs,Fixed,Add references to the architecture diagram for clarity.,3
+T443,Enable audit logging for critical events,In Progress,Encryption is applied to data in transit and at rest.,0
+T444,Enable audit logging for critical events,In Progress,Need more details on how encryption keys are rotated.,2
+T445,Enable audit logging for critical events,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T446,Enable audit logging for critical events,In Progress,Explain how input validation handles nested JSON payloads.,2
+T447,Enable audit logging for critical events,Fixed,Add references to the architecture diagram for clarity.,3
+T448,Implement secure password storage,In Progress,"The team will add this later, so marking complete for now.",1
+T449,Implement secure key rotation,Not Applicable,More information needed on session timeout configuration.,2
+T450,Validate all user inputs,Fixed,Provide more detail on how this control mitigates the threat.,3
+T451,Implement rate limiting for brute-force protection,In Progress,The control is not applicable but no justification provided.,1
+T452,Implement secure key rotation,Fixed,We skipped this control due to time constraints.,1
+T453,Implement secure password storage,In Progress,Clarify how access is revoked for terminated employees.,2
+T454,Configure HTTPS securely,Not Applicable,We think this control is implemented but are not fully sure.,1
+T455,Validate all user inputs,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T456,Configure HTTPS securely,In Progress,Please update the justification to include specific evidence.,3
+T457,Implement secure key rotation,In Progress,Input validation is enforced on all user-facing fields.,0
+T458,Protect API endpoints with authentication,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T459,Ensure secure deletion of sensitive data,In Progress,Explain how input validation handles nested JSON payloads.,2
+T460,Implement rate limiting for brute-force protection,In Progress,The control is not applicable but no justification provided.,1
+T461,Implement secure session management,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T462,Ensure secure deletion of sensitive data,In Progress,Add screenshots showing where the control is implemented.,3
+T463,Encrypt sensitive data using latest encryption mechanisms,Fixed,Clarify how audit logs are protected from tampering.,2
+T464,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Need more details on how encryption keys are rotated.,2
+T465,Implement secure password storage,In Progress,This is not needed because our app is internal only.,1
+T466,Configure HTTPS securely,Fixed,Input validation is enforced on all user-facing fields.,0
+T467,Ensure secure deletion of sensitive data,Not Applicable,Need more details on how encryption keys are rotated.,2
+T468,Implement secure key rotation,Fixed,Need more details on how encryption keys are rotated.,2
+T469,Encrypt sensitive data using latest encryption mechanisms,In Progress,Audit logging is configured according to enterprise standards.,0
+T470,Implement secure password storage,In Progress,Need more details on how encryption keys are rotated.,2
+T471,Implement rate limiting for brute-force protection,Not Applicable,This is not needed because our app is internal only.,1
+T472,Implement secure session management,Not Applicable,Add screenshots showing where the control is implemented.,3
+T473,Ensure secure deletion of sensitive data,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T474,Enable audit logging for critical events,In Progress,Need more details on how encryption keys are rotated.,2
+T475,Ensure secure deletion of sensitive data,Fixed,Need more details on how encryption keys are rotated.,2
+T476,Implement secure key rotation,In Progress,Encryption is applied to data in transit and at rest.,0
+T477,Encrypt sensitive data using latest encryption mechanisms,In Progress,Input validation is enforced on all user-facing fields.,0
+T478,Validate all user inputs,Fixed,Provide more detail on how this control mitigates the threat.,3
+T479,Protect API endpoints with authentication,In Progress,"The team will add this later, so marking complete for now.",1
+T480,Enable audit logging for critical events,Fixed,Input validation is enforced on all user-facing fields.,0
+T481,Configure HTTPS securely,Fixed,This is not needed because our app is internal only.,1
+T482,Implement secure key rotation,Fixed,Encryption is applied to data in transit and at rest.,0
+T483,Enable audit logging for critical events,Not Applicable,Add references to the architecture diagram for clarity.,3
+T484,Protect API endpoints with authentication,Fixed,The control is not applicable but no justification provided.,1
+T485,Protect API endpoints with authentication,Fixed,The control is not applicable but no justification provided.,1
+T486,Implement secure session management,In Progress,Encryption is applied to data in transit and at rest.,0
+T487,Enable audit logging for critical events,Fixed,Add screenshots showing where the control is implemented.,3
+T488,Implement secure password storage,Not Applicable,We skipped this control due to time constraints.,1
+T489,Implement secure session management,Fixed,Clarify how audit logs are protected from tampering.,2
+T490,Validate all user inputs,Not Applicable,This is not needed because our app is internal only.,1
+T491,Implement rate limiting for brute-force protection,Fixed,Please update the justification to include specific evidence.,3
+T492,Ensure secure deletion of sensitive data,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T493,Implement secure session management,Fixed,Encryption is applied to data in transit and at rest.,0
+T494,Enable audit logging for critical events,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T495,Configure HTTPS securely,In Progress,More information needed on session timeout configuration.,2
+T496,Implement secure key rotation,In Progress,More information needed on session timeout configuration.,2
+T497,Implement secure password storage,Fixed,Clarify how audit logs are protected from tampering.,2
+T498,Ensure secure deletion of sensitive data,In Progress,The control is not applicable but no justification provided.,1
+T499,Enable audit logging for critical events,Fixed,The control is not applicable but no justification provided.,1
+T500,Ensure secure deletion of sensitive data,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T501,Implement secure password storage,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T502,Implement secure key rotation,Not Applicable,This is not needed because our app is internal only.,1
+T503,Implement secure key rotation,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T504,Validate all user inputs,In Progress,Need more details on how encryption keys are rotated.,2
+T505,Ensure secure deletion of sensitive data,Fixed,The control is not applicable but no justification provided.,1
+T506,Encrypt sensitive data using latest encryption mechanisms,In Progress,More information needed on session timeout configuration.,2
+T507,Implement secure session management,Fixed,Add screenshots showing where the control is implemented.,3
+T508,Enable audit logging for critical events,Fixed,Provide more detail on how this control mitigates the threat.,3
+T509,Protect API endpoints with authentication,Not Applicable,Add references to the architecture diagram for clarity.,3
+T510,Validate all user inputs,In Progress,Input validation is enforced on all user-facing fields.,0
+T511,Ensure secure deletion of sensitive data,In Progress,Input validation is enforced on all user-facing fields.,0
+T512,Validate all user inputs,In Progress,Provide more detail on how this control mitigates the threat.,3
+T513,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Please update the justification to include specific evidence.,3
+T514,Implement secure session management,In Progress,Need more details on how encryption keys are rotated.,2
+T515,Configure HTTPS securely,In Progress,We skipped this control due to time constraints.,1
+T516,Validate all user inputs,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T517,Ensure secure deletion of sensitive data,Not Applicable,The control is implemented as described and meets all requirements.,0
+T518,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Add references to the architecture diagram for clarity.,3
+T519,Protect API endpoints with authentication,Fixed,Audit logging is configured according to enterprise standards.,0
+T520,Validate all user inputs,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T521,Configure HTTPS securely,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T522,Protect API endpoints with authentication,Not Applicable,The control is not applicable but no justification provided.,1
+T523,Validate all user inputs,Fixed,Add screenshots showing where the control is implemented.,3
+T524,Enable audit logging for critical events,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T525,Ensure secure deletion of sensitive data,In Progress,This is not needed because our app is internal only.,1
+T526,Implement secure key rotation,Not Applicable,Add screenshots showing where the control is implemented.,3
+T527,Validate all user inputs,In Progress,Clarify how audit logs are protected from tampering.,2
+T528,Encrypt sensitive data using latest encryption mechanisms,Fixed,This is not needed because our app is internal only.,1
+T529,Validate all user inputs,In Progress,Input validation is enforced on all user-facing fields.,0
+T530,Protect API endpoints with authentication,In Progress,"The team will add this later, so marking complete for now.",1
+T531,Validate all user inputs,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T532,Encrypt sensitive data using latest encryption mechanisms,In Progress,The control is implemented as described and meets all requirements.,0
+T533,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Add references to the architecture diagram for clarity.,3
+T534,Implement secure password storage,Fixed,We skipped this control due to time constraints.,1
+T535,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Add screenshots showing where the control is implemented.,3
+T536,Enable audit logging for critical events,Fixed,Add screenshots showing where the control is implemented.,3
+T537,Implement rate limiting for brute-force protection,In Progress,Add screenshots showing where the control is implemented.,3
+T538,Validate all user inputs,Fixed,Provide more detail on how this control mitigates the threat.,3
+T539,Validate all user inputs,Fixed,The control is not applicable but no justification provided.,1
+T540,Implement secure password storage,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T541,Implement secure key rotation,Not Applicable,The control is not applicable but no justification provided.,1
+T542,Ensure secure deletion of sensitive data,Not Applicable,Please update the justification to include specific evidence.,3
+T543,Implement rate limiting for brute-force protection,In Progress,We skipped this control due to time constraints.,1
+T544,Encrypt sensitive data using latest encryption mechanisms,In Progress,Input validation is enforced on all user-facing fields.,0
+T545,Implement secure key rotation,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T546,Enable audit logging for critical events,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T547,Configure HTTPS securely,Not Applicable,This is not needed because our app is internal only.,1
+T548,Ensure secure deletion of sensitive data,Fixed,Provide more detail on how this control mitigates the threat.,3
+T549,Implement secure key rotation,Fixed,Add screenshots showing where the control is implemented.,3
+T550,Configure HTTPS securely,Fixed,Add screenshots showing where the control is implemented.,3
+T551,Ensure secure deletion of sensitive data,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T552,Ensure secure deletion of sensitive data,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T553,Implement secure session management,Fixed,"The team will add this later, so marking complete for now.",1
+T554,Encrypt sensitive data using latest encryption mechanisms,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T555,Implement secure key rotation,Fixed,Audit logging is configured according to enterprise standards.,0
+T556,Implement secure session management,Not Applicable,Add screenshots showing where the control is implemented.,3
+T557,Configure HTTPS securely,In Progress,The control is not applicable but no justification provided.,1
+T558,Enable audit logging for critical events,In Progress,Add screenshots showing where the control is implemented.,3
+T559,Validate all user inputs,Fixed,Audit logging is configured according to enterprise standards.,0
+T560,Enable audit logging for critical events,In Progress,The control is implemented as described and meets all requirements.,0
+T561,Validate all user inputs,Fixed,Add screenshots showing where the control is implemented.,3
+T562,Implement secure password storage,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T563,Implement secure key rotation,Fixed,Clarify how access is revoked for terminated employees.,2
+T564,Implement secure key rotation,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T565,Validate all user inputs,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T566,Implement secure password storage,Fixed,Add screenshots showing where the control is implemented.,3
+T567,Implement secure key rotation,In Progress,Please update the justification to include specific evidence.,3
+T568,Validate all user inputs,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T569,Implement secure password storage,Not Applicable,The control is not applicable but no justification provided.,1
+T570,Protect API endpoints with authentication,Not Applicable,Please update the justification to include specific evidence.,3
+T571,Implement rate limiting for brute-force protection,Fixed,Add screenshots showing where the control is implemented.,3
+T572,Enable audit logging for critical events,Fixed,We skipped this control due to time constraints.,1
+T573,Enable audit logging for critical events,In Progress,Need more details on how encryption keys are rotated.,2
+T574,Enable audit logging for critical events,Fixed,This is not needed because our app is internal only.,1
+T575,Implement rate limiting for brute-force protection,In Progress,The control is implemented as described and meets all requirements.,0
+T576,Implement secure password storage,Not Applicable,This is not needed because our app is internal only.,1
+T577,Configure HTTPS securely,In Progress,Add screenshots showing where the control is implemented.,3
+T578,Implement secure session management,Not Applicable,The control is implemented as described and meets all requirements.,0
+T579,Enable audit logging for critical events,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T580,Implement secure session management,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T581,Implement rate limiting for brute-force protection,Fixed,Clarify how audit logs are protected from tampering.,2
+T582,Implement secure key rotation,Fixed,We skipped this control due to time constraints.,1
+T583,Implement secure session management,Not Applicable,Add references to the architecture diagram for clarity.,3
+T584,Implement secure session management,Not Applicable,"The team will add this later, so marking complete for now.",1
+T585,Encrypt sensitive data using latest encryption mechanisms,Fixed,Add screenshots showing where the control is implemented.,3
+T586,Encrypt sensitive data using latest encryption mechanisms,In Progress,We skipped this control due to time constraints.,1
+T587,Configure HTTPS securely,Not Applicable,Please update the justification to include specific evidence.,3
+T588,Implement secure session management,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T589,Enable audit logging for critical events,Not Applicable,More information needed on session timeout configuration.,2
+T590,Configure HTTPS securely,Fixed,We think this control is implemented but are not fully sure.,1
+T591,Configure HTTPS securely,Fixed,Clarify how audit logs are protected from tampering.,2
+T592,Enable audit logging for critical events,In Progress,We think this control is implemented but are not fully sure.,1
+T593,Configure HTTPS securely,In Progress,More information needed on session timeout configuration.,2
+T594,Protect API endpoints with authentication,In Progress,Clarify how audit logs are protected from tampering.,2
+T595,Ensure secure deletion of sensitive data,In Progress,"The team will add this later, so marking complete for now.",1
+T596,Encrypt sensitive data using latest encryption mechanisms,In Progress,Input validation is enforced on all user-facing fields.,0
+T597,Configure HTTPS securely,In Progress,Add references to the architecture diagram for clarity.,3
+T598,Protect API endpoints with authentication,Fixed,Encryption is applied to data in transit and at rest.,0
+T599,Implement secure password storage,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T600,Implement secure session management,Fixed,Provide more detail on how this control mitigates the threat.,3
+T601,Implement secure session management,Fixed,Provide more detail on how this control mitigates the threat.,3
+T602,Validate all user inputs,Fixed,Add references to the architecture diagram for clarity.,3
+T603,Implement secure password storage,In Progress,Add screenshots showing where the control is implemented.,3
+T604,Implement secure key rotation,Not Applicable,More information needed on session timeout configuration.,2
+T605,Implement secure password storage,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T606,Protect API endpoints with authentication,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T607,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T608,Implement secure session management,Fixed,More information needed on session timeout configuration.,2
+T609,Configure HTTPS securely,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T610,Protect API endpoints with authentication,In Progress,We think this control is implemented but are not fully sure.,1
+T611,Implement secure key rotation,Not Applicable,The control is not applicable but no justification provided.,1
+T612,Encrypt sensitive data using latest encryption mechanisms,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T613,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,The control is implemented as described and meets all requirements.,0
+T614,Enable audit logging for critical events,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T615,Enable audit logging for critical events,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T616,Validate all user inputs,Fixed,Provide more detail on how this control mitigates the threat.,3
+T617,Implement secure key rotation,Fixed,The control is implemented as described and meets all requirements.,0
+T618,Ensure secure deletion of sensitive data,In Progress,The control is not applicable but no justification provided.,1
+T619,Validate all user inputs,In Progress,The control is implemented as described and meets all requirements.,0
+T620,Implement secure password storage,Not Applicable,Please update the justification to include specific evidence.,3
+T621,Configure HTTPS securely,In Progress,We think this control is implemented but are not fully sure.,1
+T622,Implement secure key rotation,Not Applicable,Add screenshots showing where the control is implemented.,3
+T623,Configure HTTPS securely,Not Applicable,Need more details on how encryption keys are rotated.,2
+T624,Implement rate limiting for brute-force protection,In Progress,"The team will add this later, so marking complete for now.",1
+T625,Configure HTTPS securely,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T626,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T627,Validate all user inputs,Fixed,Please update the justification to include specific evidence.,3
+T628,Implement rate limiting for brute-force protection,Fixed,We think this control is implemented but are not fully sure.,1
+T629,Configure HTTPS securely,Not Applicable,More information needed on session timeout configuration.,2
+T630,Enable audit logging for critical events,In Progress,Clarify how audit logs are protected from tampering.,2
+T631,Encrypt sensitive data using latest encryption mechanisms,In Progress,Add references to the architecture diagram for clarity.,3
+T632,Implement secure key rotation,In Progress,Add screenshots showing where the control is implemented.,3
+T633,Implement rate limiting for brute-force protection,Not Applicable,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T634,Implement secure key rotation,In Progress,Audit logging is configured according to enterprise standards.,0
+T635,Protect API endpoints with authentication,In Progress,Encryption is applied to data in transit and at rest.,0
+T636,Implement secure password storage,Fixed,Input validation is enforced on all user-facing fields.,0
+T637,Enable audit logging for critical events,In Progress,The control is not applicable but no justification provided.,1
+T638,Implement secure session management,Not Applicable,The control is implemented as described and meets all requirements.,0
+T639,Implement rate limiting for brute-force protection,Not Applicable,The control is not applicable but no justification provided.,1
+T640,Validate all user inputs,Not Applicable,The control is not applicable but no justification provided.,1
+T641,Implement secure session management,Not Applicable,Need more details on how encryption keys are rotated.,2
+T642,Enable audit logging for critical events,In Progress,Encryption is applied to data in transit and at rest.,0
+T643,Implement secure session management,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T644,Implement secure password storage,In Progress,Add references to the architecture diagram for clarity.,3
+T645,Configure HTTPS securely,Fixed,Explain how input validation handles nested JSON payloads.,2
+T646,Encrypt sensitive data using latest encryption mechanisms,Fixed,Encryption is applied to data in transit and at rest.,0
+T647,Enable audit logging for critical events,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T648,Configure HTTPS securely,In Progress,We think this control is implemented but are not fully sure.,1
+T649,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Need more details on how encryption keys are rotated.,2
+T650,Implement secure password storage,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T651,Implement secure key rotation,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T652,Ensure secure deletion of sensitive data,Fixed,Add screenshots showing where the control is implemented.,3
+T653,Protect API endpoints with authentication,In Progress,Need more details on how encryption keys are rotated.,2
+T654,Encrypt sensitive data using latest encryption mechanisms,Fixed,Add screenshots showing where the control is implemented.,3
+T655,Implement secure session management,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T656,Implement rate limiting for brute-force protection,Fixed,This is not needed because our app is internal only.,1
+T657,Implement rate limiting for brute-force protection,Fixed,Add references to the architecture diagram for clarity.,3
+T658,Ensure secure deletion of sensitive data,In Progress,Add references to the architecture diagram for clarity.,3
+T659,Implement secure session management,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T660,Enable audit logging for critical events,Fixed,This is not needed because our app is internal only.,1
+T661,Enable audit logging for critical events,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T662,Implement secure key rotation,Not Applicable,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T663,Implement secure key rotation,In Progress,Encryption is applied to data in transit and at rest.,0
+T664,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T665,Ensure secure deletion of sensitive data,In Progress,Clarify how audit logs are protected from tampering.,2
+T666,Implement secure password storage,Not Applicable,This is not needed because our app is internal only.,1
+T667,Configure HTTPS securely,In Progress,The control is implemented as described and meets all requirements.,0
+T668,Implement secure key rotation,Fixed,We skipped this control due to time constraints.,1
+T669,Encrypt sensitive data using latest encryption mechanisms,Fixed,This is not needed because our app is internal only.,1
+T670,Implement secure key rotation,Fixed,Add references to the architecture diagram for clarity.,3
+T671,Enable audit logging for critical events,Not Applicable,This is not needed because our app is internal only.,1
+T672,Implement secure key rotation,In Progress,We think this control is implemented but are not fully sure.,1
+T673,Protect API endpoints with authentication,Fixed,Audit logging is configured according to enterprise standards.,0
+T674,Encrypt sensitive data using latest encryption mechanisms,In Progress,Input validation is enforced on all user-facing fields.,0
+T675,Protect API endpoints with authentication,In Progress,More information needed on session timeout configuration.,2
+T676,Enable audit logging for critical events,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T677,Implement secure password storage,Fixed,Encryption is applied to data in transit and at rest.,0
+T678,Implement secure password storage,In Progress,More information needed on session timeout configuration.,2
+T679,Protect API endpoints with authentication,Fixed,More information needed on session timeout configuration.,2
+T680,Ensure secure deletion of sensitive data,Fixed,The control is implemented as described and meets all requirements.,0
+T681,Implement rate limiting for brute-force protection,Not Applicable,Add screenshots showing where the control is implemented.,3
+T682,Implement secure password storage,In Progress,We skipped this control due to time constraints.,1
+T683,Implement secure password storage,Fixed,We skipped this control due to time constraints.,1
+T684,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Please update the justification to include specific evidence.,3
+T685,Implement rate limiting for brute-force protection,Not Applicable,We think this control is implemented but are not fully sure.,1
+T686,Encrypt sensitive data using latest encryption mechanisms,In Progress,Input validation is enforced on all user-facing fields.,0
+T687,Ensure secure deletion of sensitive data,Fixed,The control is implemented as described and meets all requirements.,0
+T688,Protect API endpoints with authentication,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T689,Implement secure key rotation,Fixed,Add screenshots showing where the control is implemented.,3
+T690,Validate all user inputs,In Progress,Provide more detail on how this control mitigates the threat.,3
+T691,Enable audit logging for critical events,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T692,Implement secure session management,In Progress,Clarify how access is revoked for terminated employees.,2
+T693,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,The control is implemented as described and meets all requirements.,0
+T694,Validate all user inputs,Not Applicable,This is not needed because our app is internal only.,1
+T695,Validate all user inputs,In Progress,Provide more detail on how this control mitigates the threat.,3
+T696,Encrypt sensitive data using latest encryption mechanisms,In Progress,More information needed on session timeout configuration.,2
+T697,Enable audit logging for critical events,Not Applicable,The control is not applicable but no justification provided.,1
+T698,Protect API endpoints with authentication,In Progress,We skipped this control due to time constraints.,1
+T699,Configure HTTPS securely,In Progress,Add screenshots showing where the control is implemented.,3
+T700,Implement rate limiting for brute-force protection,In Progress,Need more details on how encryption keys are rotated.,2
+T701,Protect API endpoints with authentication,Not Applicable,We skipped this control due to time constraints.,1
+T702,Ensure secure deletion of sensitive data,Not Applicable,More information needed on session timeout configuration.,2
+T703,Configure HTTPS securely,In Progress,We skipped this control due to time constraints.,1
+T704,Encrypt sensitive data using latest encryption mechanisms,In Progress,Clarify how access is revoked for terminated employees.,2
+T705,Implement secure session management,In Progress,Explain how input validation handles nested JSON payloads.,2
+T706,Implement rate limiting for brute-force protection,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T707,Ensure secure deletion of sensitive data,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T708,Implement rate limiting for brute-force protection,In Progress,Add screenshots showing where the control is implemented.,3
+T709,Protect API endpoints with authentication,Fixed,Add references to the architecture diagram for clarity.,3
+T710,Implement secure session management,Not Applicable,More information needed on session timeout configuration.,2
+T711,Encrypt sensitive data using latest encryption mechanisms,Fixed,The control is implemented as described and meets all requirements.,0
+T712,Implement secure session management,Not Applicable,Add references to the architecture diagram for clarity.,3
+T713,Ensure secure deletion of sensitive data,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T714,Implement rate limiting for brute-force protection,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T715,Encrypt sensitive data using latest encryption mechanisms,In Progress,Please update the justification to include specific evidence.,3
+T716,Implement secure key rotation,Not Applicable,The control is not applicable but no justification provided.,1
+T717,Ensure secure deletion of sensitive data,Fixed,Need more details on how encryption keys are rotated.,2
+T718,Encrypt sensitive data using latest encryption mechanisms,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T719,Implement rate limiting for brute-force protection,In Progress,Provide more detail on how this control mitigates the threat.,3
+T720,Implement rate limiting for brute-force protection,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T721,Protect API endpoints with authentication,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T722,Enable audit logging for critical events,Fixed,Please update the justification to include specific evidence.,3
+T723,Validate all user inputs,Not Applicable,Need more details on how encryption keys are rotated.,2
+T724,Encrypt sensitive data using latest encryption mechanisms,Fixed,Need more details on how encryption keys are rotated.,2
+T725,Ensure secure deletion of sensitive data,In Progress,We skipped this control due to time constraints.,1
+T726,Implement rate limiting for brute-force protection,Fixed,Encryption is applied to data in transit and at rest.,0
+T727,Enable audit logging for critical events,Not Applicable,We think this control is implemented but are not fully sure.,1
+T728,Implement secure key rotation,Fixed,Clarify how audit logs are protected from tampering.,2
+T729,Implement rate limiting for brute-force protection,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T730,Implement secure password storage,Fixed,Add references to the architecture diagram for clarity.,3
+T731,Implement rate limiting for brute-force protection,Fixed,Please update the justification to include specific evidence.,3
+T732,Implement rate limiting for brute-force protection,Fixed,This is not needed because our app is internal only.,1
+T733,Implement rate limiting for brute-force protection,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T734,Protect API endpoints with authentication,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T735,Ensure secure deletion of sensitive data,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T736,Implement secure password storage,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T737,Implement secure session management,Not Applicable,Add screenshots showing where the control is implemented.,3
+T738,Ensure secure deletion of sensitive data,Fixed,Provide more detail on how this control mitigates the threat.,3
+T739,Protect API endpoints with authentication,In Progress,Add references to the architecture diagram for clarity.,3
+T740,Protect API endpoints with authentication,In Progress,Please update the justification to include specific evidence.,3
+T741,Ensure secure deletion of sensitive data,Fixed,Provide more detail on how this control mitigates the threat.,3
+T742,Implement secure key rotation,Fixed,We skipped this control due to time constraints.,1
+T743,Implement secure key rotation,Not Applicable,Please update the justification to include specific evidence.,3
+T744,Enable audit logging for critical events,Fixed,Add references to the architecture diagram for clarity.,3
+T745,Protect API endpoints with authentication,In Progress,Please update the justification to include specific evidence.,3
+T746,Validate all user inputs,Fixed,This is not needed because our app is internal only.,1
+T747,Implement rate limiting for brute-force protection,Fixed,Clarify how audit logs are protected from tampering.,2
+T748,Implement secure key rotation,In Progress,Audit logging is configured according to enterprise standards.,0
+T749,Validate all user inputs,Fixed,Audit logging is configured according to enterprise standards.,0
+T750,Implement secure password storage,In Progress,Clarify how audit logs are protected from tampering.,2
+T751,Protect API endpoints with authentication,In Progress,"The team will add this later, so marking complete for now.",1
+T752,Implement rate limiting for brute-force protection,In Progress,Need more details on how encryption keys are rotated.,2
+T753,Configure HTTPS securely,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T754,Enable audit logging for critical events,In Progress,"The team will add this later, so marking complete for now.",1
+T755,Configure HTTPS securely,Fixed,Explain how input validation handles nested JSON payloads.,2
+T756,Validate all user inputs,In Progress,We think this control is implemented but are not fully sure.,1
+T757,Encrypt sensitive data using latest encryption mechanisms,Fixed,Input validation is enforced on all user-facing fields.,0
+T758,Protect API endpoints with authentication,In Progress,Input validation is enforced on all user-facing fields.,0
+T759,Implement secure session management,In Progress,Please update the justification to include specific evidence.,3
+T760,Validate all user inputs,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T761,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,We skipped this control due to time constraints.,1
+T762,Validate all user inputs,Not Applicable,The control is implemented as described and meets all requirements.,0
+T763,Configure HTTPS securely,In Progress,Please update the justification to include specific evidence.,3
+T764,Implement secure session management,In Progress,We think this control is implemented but are not fully sure.,1
+T765,Implement secure session management,In Progress,Need more details on how encryption keys are rotated.,2
+T766,Implement secure password storage,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T767,Configure HTTPS securely,In Progress,Clarify how access is revoked for terminated employees.,2
+T768,Configure HTTPS securely,Not Applicable,We skipped this control due to time constraints.,1
+T769,Implement rate limiting for brute-force protection,Fixed,Encryption is applied to data in transit and at rest.,0
+T770,Validate all user inputs,In Progress,The control is not applicable but no justification provided.,1
+T771,Implement rate limiting for brute-force protection,Fixed,"The team will add this later, so marking complete for now.",1
+T772,Configure HTTPS securely,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T773,Implement secure key rotation,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T774,Implement secure password storage,Not Applicable,This is not needed because our app is internal only.,1
+T775,Ensure secure deletion of sensitive data,Fixed,The control is implemented as described and meets all requirements.,0
+T776,Ensure secure deletion of sensitive data,Fixed,Clarify how access is revoked for terminated employees.,2
+T777,Implement rate limiting for brute-force protection,Fixed,Add screenshots showing where the control is implemented.,3
+T778,Configure HTTPS securely,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T779,Implement secure session management,Not Applicable,This is not needed because our app is internal only.,1
+T780,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,We think this control is implemented but are not fully sure.,1
+T781,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,The control is implemented as described and meets all requirements.,0
+T782,Encrypt sensitive data using latest encryption mechanisms,Fixed,Clarify how audit logs are protected from tampering.,2
+T783,Validate all user inputs,Fixed,Add screenshots showing where the control is implemented.,3
+T784,Implement secure key rotation,Fixed,We skipped this control due to time constraints.,1
+T785,Implement rate limiting for brute-force protection,In Progress,Add screenshots showing where the control is implemented.,3
+T786,Configure HTTPS securely,Not Applicable,More information needed on session timeout configuration.,2
+T787,Protect API endpoints with authentication,Fixed,We think this control is implemented but are not fully sure.,1
+T788,Configure HTTPS securely,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T789,Configure HTTPS securely,Fixed,The control is implemented as described and meets all requirements.,0
+T790,Configure HTTPS securely,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T791,Validate all user inputs,Fixed,Encryption is applied to data in transit and at rest.,0
+T792,Implement secure password storage,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T793,Implement secure session management,Not Applicable,Please update the justification to include specific evidence.,3
+T794,Enable audit logging for critical events,Fixed,Provide more detail on how this control mitigates the threat.,3
+T795,Implement secure session management,Fixed,Provide more detail on how this control mitigates the threat.,3
+T796,Ensure secure deletion of sensitive data,In Progress,This is not needed because our app is internal only.,1
+T797,Protect API endpoints with authentication,In Progress,The control is implemented as described and meets all requirements.,0
+T798,Validate all user inputs,In Progress,More information needed on session timeout configuration.,2
+T799,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,"The team will add this later, so marking complete for now.",1
+T800,Ensure secure deletion of sensitive data,Not Applicable,Add references to the architecture diagram for clarity.,3
+T801,Implement secure session management,Not Applicable,Please update the justification to include specific evidence.,3
+T802,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Add screenshots showing where the control is implemented.,3
+T803,Validate all user inputs,Fixed,This is not needed because our app is internal only.,1
+T804,Implement secure session management,Not Applicable,"The team will add this later, so marking complete for now.",1
+T805,Validate all user inputs,Not Applicable,Add references to the architecture diagram for clarity.,3
+T806,Implement secure password storage,In Progress,Clarify how audit logs are protected from tampering.,2
+T807,Enable audit logging for critical events,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T808,Configure HTTPS securely,Fixed,Input validation is enforced on all user-facing fields.,0
+T809,Protect API endpoints with authentication,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T810,Validate all user inputs,Fixed,Explain how input validation handles nested JSON payloads.,2
+T811,Protect API endpoints with authentication,Not Applicable,More information needed on session timeout configuration.,2
+T812,Implement secure key rotation,Fixed,The control is implemented as described and meets all requirements.,0
+T813,Ensure secure deletion of sensitive data,Fixed,More information needed on session timeout configuration.,2
+T814,Ensure secure deletion of sensitive data,Fixed,Provide more detail on how this control mitigates the threat.,3
+T815,Implement rate limiting for brute-force protection,Fixed,The control is implemented as described and meets all requirements.,0
+T816,Ensure secure deletion of sensitive data,In Progress,We think this control is implemented but are not fully sure.,1
+T817,Implement secure key rotation,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T818,Implement secure session management,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T819,Implement secure password storage,In Progress,"The team will add this later, so marking complete for now.",1
+T820,Ensure secure deletion of sensitive data,In Progress,The control is implemented as described and meets all requirements.,0
+T821,Enable audit logging for critical events,Not Applicable,We think this control is implemented but are not fully sure.,1
+T822,Implement rate limiting for brute-force protection,In Progress,The control is implemented as described and meets all requirements.,0
+T823,Protect API endpoints with authentication,Not Applicable,"The team will add this later, so marking complete for now.",1
+T824,Implement secure key rotation,In Progress,Input validation is enforced on all user-facing fields.,0
+T825,Implement secure key rotation,Fixed,Please update the justification to include specific evidence.,3
+T826,Encrypt sensitive data using latest encryption mechanisms,In Progress,Need more details on how encryption keys are rotated.,2
+T827,Ensure secure deletion of sensitive data,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T828,Encrypt sensitive data using latest encryption mechanisms,Fixed,This is not needed because our app is internal only.,1
+T829,Implement rate limiting for brute-force protection,Not Applicable,Please update the justification to include specific evidence.,3
+T830,Implement rate limiting for brute-force protection,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T831,Protect API endpoints with authentication,In Progress,"The team will add this later, so marking complete for now.",1
+T832,Encrypt sensitive data using latest encryption mechanisms,In Progress,More information needed on session timeout configuration.,2
+T833,Protect API endpoints with authentication,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T834,Implement secure key rotation,In Progress,We think this control is implemented but are not fully sure.,1
+T835,Protect API endpoints with authentication,In Progress,We skipped this control due to time constraints.,1
+T836,Implement secure key rotation,In Progress,Audit logging is configured according to enterprise standards.,0
+T837,Validate all user inputs,Not Applicable,The control is implemented as described and meets all requirements.,0
+T838,Implement secure key rotation,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T839,Validate all user inputs,Not Applicable,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T840,Encrypt sensitive data using latest encryption mechanisms,In Progress,Audit logging is configured according to enterprise standards.,0
+T841,Implement secure password storage,Not Applicable,Add references to the architecture diagram for clarity.,3
+T842,Implement secure session management,Not Applicable,This is not needed because our app is internal only.,1
+T843,Configure HTTPS securely,In Progress,Clarify how audit logs are protected from tampering.,2
+T844,Implement secure session management,Fixed,Need more details on how encryption keys are rotated.,2
+T845,Implement secure password storage,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T846,Configure HTTPS securely,Fixed,Audit logging is configured according to enterprise standards.,0
+T847,Encrypt sensitive data using latest encryption mechanisms,Fixed,We think this control is implemented but are not fully sure.,1
+T848,Implement secure key rotation,In Progress,Provide more detail on how this control mitigates the threat.,3
+T849,Ensure secure deletion of sensitive data,Fixed,This is not needed because our app is internal only.,1
+T850,Ensure secure deletion of sensitive data,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T851,Encrypt sensitive data using latest encryption mechanisms,In Progress,Clarify how access is revoked for terminated employees.,2
+T852,Validate all user inputs,Not Applicable,We skipped this control due to time constraints.,1
+T853,Implement secure session management,In Progress,The control is implemented as described and meets all requirements.,0
+T854,Implement rate limiting for brute-force protection,Fixed,Audit logging is configured according to enterprise standards.,0
+T855,Implement secure password storage,Fixed,We think this control is implemented but are not fully sure.,1
+T856,Enable audit logging for critical events,Not Applicable,The control is not applicable but no justification provided.,1
+T857,Configure HTTPS securely,In Progress,More information needed on session timeout configuration.,2
+T858,Protect API endpoints with authentication,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T859,Encrypt sensitive data using latest encryption mechanisms,Fixed,We skipped this control due to time constraints.,1
+T860,Implement secure password storage,Not Applicable,Add screenshots showing where the control is implemented.,3
+T861,Enable audit logging for critical events,Not Applicable,We think this control is implemented but are not fully sure.,1
+T862,Implement secure password storage,In Progress,Audit logging is configured according to enterprise standards.,0
+T863,Validate all user inputs,In Progress,We think this control is implemented but are not fully sure.,1
+T864,Implement secure password storage,Not Applicable,Add references to the architecture diagram for clarity.,3
+T865,Implement rate limiting for brute-force protection,Fixed,Please update the justification to include specific evidence.,3
+T866,Enable audit logging for critical events,In Progress,The control is not applicable but no justification provided.,1
+T867,Implement secure key rotation,Not Applicable,"The team will add this later, so marking complete for now.",1
+T868,Implement rate limiting for brute-force protection,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T869,Encrypt sensitive data using latest encryption mechanisms,Fixed,The control is implemented as described and meets all requirements.,0
+T870,Validate all user inputs,Fixed,Audit logging is configured according to enterprise standards.,0
+T871,Implement secure password storage,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T872,Implement secure password storage,Not Applicable,Input validation is enforced on all user-facing fields.,0
+T873,Implement secure key rotation,In Progress,The control is not applicable but no justification provided.,1
+T874,Implement secure password storage,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T875,Ensure secure deletion of sensitive data,Fixed,Encryption is applied to data in transit and at rest.,0
+T876,Protect API endpoints with authentication,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T877,Validate all user inputs,Not Applicable,Clarify how audit logs are protected from tampering.,2
+T878,Encrypt sensitive data using latest encryption mechanisms,In Progress,More information needed on session timeout configuration.,2
+T879,Validate all user inputs,In Progress,Clarify how access is revoked for terminated employees.,2
+T880,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Add references to the architecture diagram for clarity.,3
+T881,Implement secure password storage,In Progress,Provide more detail on how this control mitigates the threat.,3
+T882,Configure HTTPS securely,Fixed,Add references to the architecture diagram for clarity.,3
+T883,Protect API endpoints with authentication,Fixed,Need more details on how encryption keys are rotated.,2
+T884,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,More information needed on session timeout configuration.,2
+T885,Implement secure session management,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T886,Configure HTTPS securely,In Progress,Encryption is applied to data in transit and at rest.,0
+T887,Implement rate limiting for brute-force protection,In Progress,This is not needed because our app is internal only.,1
+T888,Implement secure password storage,Fixed,Explain how input validation handles nested JSON payloads.,2
+T889,Configure HTTPS securely,Not Applicable,This is not needed because our app is internal only.,1
+T890,Enable audit logging for critical events,Not Applicable,Encryption is applied to data in transit and at rest.,0
+T891,Enable audit logging for critical events,Fixed,Encryption is applied to data in transit and at rest.,0
+T892,Implement secure session management,Fixed,We skipped this control due to time constraints.,1
+T893,Implement secure session management,In Progress,Clarify how audit logs are protected from tampering.,2
+T894,Validate all user inputs,In Progress,This is not needed because our app is internal only.,1
+T895,Implement secure key rotation,Not Applicable,Add screenshots showing where the control is implemented.,3
+T896,Validate all user inputs,Fixed,The control is implemented as described and meets all requirements.,0
+T897,Protect API endpoints with authentication,Fixed,The control is not applicable but no justification provided.,1
+T898,Validate all user inputs,In Progress,Audit logging is configured according to enterprise standards.,0
+T899,Protect API endpoints with authentication,Fixed,Add references to the architecture diagram for clarity.,3
+T900,Ensure secure deletion of sensitive data,In Progress,Explain how input validation handles nested JSON payloads.,2
+T901,Ensure secure deletion of sensitive data,Not Applicable,The control is implemented as described and meets all requirements.,0
+T902,Protect API endpoints with authentication,In Progress,Clarify how audit logs are protected from tampering.,2
+T903,Implement secure key rotation,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T904,Configure HTTPS securely,Not Applicable,Need more details on how encryption keys are rotated.,2
+T905,Protect API endpoints with authentication,Fixed,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T906,Protect API endpoints with authentication,In Progress,Input validation is enforced on all user-facing fields.,0
+T907,Ensure secure deletion of sensitive data,In Progress,We skipped this control due to time constraints.,1
+T908,Implement secure password storage,In Progress,Audit logging is configured according to enterprise standards.,0
+T909,Protect API endpoints with authentication,Fixed,The control is implemented as described and meets all requirements.,0
+T910,Ensure secure deletion of sensitive data,Fixed,We skipped this control due to time constraints.,1
+T911,Protect API endpoints with authentication,In Progress,This is not needed because our app is internal only.,1
+T912,Implement secure session management,Not Applicable,Please update the justification to include specific evidence.,3
+T913,Implement secure password storage,In Progress,Encryption is applied to data in transit and at rest.,0
+T914,Validate all user inputs,Fixed,Clarify how audit logs are protected from tampering.,2
+T915,Implement rate limiting for brute-force protection,In Progress,"The team will add this later, so marking complete for now.",1
+T916,Ensure secure deletion of sensitive data,In Progress,Audit logging is configured according to enterprise standards.,0
+T917,Enable audit logging for critical events,In Progress,Need more details on how encryption keys are rotated.,2
+T918,Ensure secure deletion of sensitive data,In Progress,HTTPS is configured with TLS 1.3 and strong cipher suites.,0
+T919,Implement rate limiting for brute-force protection,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T920,Configure HTTPS securely,In Progress,Explain how input validation handles nested JSON payloads.,2
+T921,Implement secure key rotation,Not Applicable,Add references to the architecture diagram for clarity.,3
+T922,Configure HTTPS securely,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T923,Configure HTTPS securely,In Progress,Input validation is enforced on all user-facing fields.,0
+T924,Validate all user inputs,In Progress,Provide more detail on how this control mitigates the threat.,3
+T925,Implement secure password storage,In Progress,Encryption is applied to data in transit and at rest.,0
+T926,Configure HTTPS securely,Fixed,Provide more detail on how this control mitigates the threat.,3
+T927,Validate all user inputs,Fixed,Input validation is enforced on all user-facing fields.,0
+T928,Implement rate limiting for brute-force protection,In Progress,Add references to the architecture diagram for clarity.,3
+T929,Implement rate limiting for brute-force protection,Not Applicable,The control is not applicable but no justification provided.,1
+T930,Implement secure key rotation,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T931,Enable audit logging for critical events,Not Applicable,Please update the justification to include specific evidence.,3
+T932,Validate all user inputs,Fixed,Audit logging is configured according to enterprise standards.,0
+T933,Validate all user inputs,Not Applicable,Provide more detail on how this control mitigates the threat.,3
+T934,Implement secure password storage,Not Applicable,Please update the justification to include specific evidence.,3
+T935,Configure HTTPS securely,Not Applicable,We think this control is implemented but are not fully sure.,1
+T936,Enable audit logging for critical events,Not Applicable,Please update the justification to include specific evidence.,3
+T937,Encrypt sensitive data using latest encryption mechanisms,In Progress,We skipped this control due to time constraints.,1
+T938,Ensure secure deletion of sensitive data,Fixed,Need more details on how encryption keys are rotated.,2
+T939,Implement secure session management,Fixed,Encryption is applied to data in transit and at rest.,0
+T940,Implement secure key rotation,In Progress,Clarify how access is revoked for terminated employees.,2
+T941,Implement secure key rotation,In Progress,Input validation is enforced on all user-facing fields.,0
+T942,Implement secure session management,Fixed,Explain how input validation handles nested JSON payloads.,2
+T943,Validate all user inputs,Not Applicable,We think this control is implemented but are not fully sure.,1
+T944,Enable audit logging for critical events,In Progress,More information needed on session timeout configuration.,2
+T945,Implement secure session management,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T946,Implement secure password storage,In Progress,Provide more detail on how this control mitigates the threat.,3
+T947,Configure HTTPS securely,In Progress,Clarify how audit logs are protected from tampering.,2
+T948,Ensure secure deletion of sensitive data,In Progress,We think this control is implemented but are not fully sure.,1
+T949,Protect API endpoints with authentication,Not Applicable,The control is not applicable but no justification provided.,1
+T950,Enable audit logging for critical events,Fixed,"The team will add this later, so marking complete for now.",1
+T951,Configure HTTPS securely,Fixed,More information needed on session timeout configuration.,2
+T952,Implement secure key rotation,In Progress,Add screenshots showing where the control is implemented.,3
+T953,Configure HTTPS securely,In Progress,Rewrite the explanation to align with enterprise standards.,3
+T954,Configure HTTPS securely,In Progress,Add screenshots showing where the control is implemented.,3
+T955,Configure HTTPS securely,Fixed,Provide more detail on how this control mitigates the threat.,3
+T956,Implement secure session management,Not Applicable,"The team will add this later, so marking complete for now.",1
+T957,Implement secure key rotation,Fixed,The control is implemented as described and meets all requirements.,0
+T958,Enable audit logging for critical events,Not Applicable,We think this control is implemented but are not fully sure.,1
+T959,Implement rate limiting for brute-force protection,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T960,Implement secure session management,Fixed,Encryption is applied to data in transit and at rest.,0
+T961,Ensure secure deletion of sensitive data,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T962,Enable audit logging for critical events,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T963,Ensure secure deletion of sensitive data,Fixed,Add screenshots showing where the control is implemented.,3
+T964,Implement secure password storage,Fixed,We think this control is implemented but are not fully sure.,1
+T965,Protect API endpoints with authentication,In Progress,We think this control is implemented but are not fully sure.,1
+T966,Enable audit logging for critical events,Fixed,Add references to the architecture diagram for clarity.,3
+T967,Implement secure password storage,Fixed,Clarify how access is revoked for terminated employees.,2
+T968,Protect API endpoints with authentication,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T969,Configure HTTPS securely,In Progress,The control is implemented as described and meets all requirements.,0
+T970,Protect API endpoints with authentication,In Progress,Please update the justification to include specific evidence.,3
+T971,Ensure secure deletion of sensitive data,Fixed,Explain how input validation handles nested JSON payloads.,2
+T972,Enable audit logging for critical events,Fixed,Clarify how access is revoked for terminated employees.,2
+T973,Protect API endpoints with authentication,Not Applicable,We think this control is implemented but are not fully sure.,1
+T974,Enable audit logging for critical events,Not Applicable,This is not needed because our app is internal only.,1
+T975,Implement rate limiting for brute-force protection,Not Applicable,More information needed on session timeout configuration.,2
+T976,Enable audit logging for critical events,In Progress,Please update the justification to include specific evidence.,3
+T977,Validate all user inputs,In Progress,Clarify how access is revoked for terminated employees.,2
+T978,Configure HTTPS securely,Fixed,Add screenshots showing where the control is implemented.,3
+T979,Protect API endpoints with authentication,Fixed,"The team will add this later, so marking complete for now.",1
+T980,Ensure secure deletion of sensitive data,Fixed,The control is implemented as described and meets all requirements.,0
+T981,Implement rate limiting for brute-force protection,Not Applicable,"The team will add this later, so marking complete for now.",1
+T982,Configure HTTPS securely,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T983,Validate all user inputs,Not Applicable,"The team will add this later, so marking complete for now.",1
+T984,Validate all user inputs,Not Applicable,Need more details on how encryption keys are rotated.,2
+T985,Implement secure password storage,Fixed,Rewrite the explanation to align with enterprise standards.,3
+T986,Implement rate limiting for brute-force protection,Fixed,Provide more detail on how this control mitigates the threat.,3
+T987,Configure HTTPS securely,Fixed,"The team will add this later, so marking complete for now.",1
+T988,Implement secure key rotation,Not Applicable,The control is implemented as described and meets all requirements.,0
+T989,Implement secure session management,Not Applicable,We think this control is implemented but are not fully sure.,1
+T990,Implement secure session management,Not Applicable,More information needed on session timeout configuration.,2
+T991,Implement secure password storage,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T992,Implement rate limiting for brute-force protection,Not Applicable,Audit logging is configured according to enterprise standards.,0
+T993,Protect API endpoints with authentication,In Progress,Explain how input validation handles nested JSON payloads.,2
+T994,Implement secure password storage,Not Applicable,Clarify how access is revoked for terminated employees.,2
+T995,Ensure secure deletion of sensitive data,Not Applicable,Rewrite the explanation to align with enterprise standards.,3
+T996,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Explain how input validation handles nested JSON payloads.,2
+T997,Ensure secure deletion of sensitive data,In Progress,Audit logging is configured according to enterprise standards.,0
+T998,Enable audit logging for critical events,Fixed,Please update the justification to include specific evidence.,3
+T999,Implement secure session management,Fixed,The control is not applicable but no justification provided.,1
+T1000,Protect API endpoints with authentication,Fixed,Provide more detail on how this control mitigates the threat.,3

@@ -1,0 +1,51 @@
+countermeasure_title,countermeasure_name,status,note
+U1,Ensure secure deletion of sensitive data,Fixed,The justification seems incomplete and may need additional evidence.
+U2,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,The control appears implemented but documentation is missing.
+U3,Enable audit logging for critical events,Fixed,The team has implemented the control but needs verification.
+U4,Validate all user inputs,Not Applicable,The team has implemented the control but needs verification.
+U5,Configure HTTPS securely,Fixed,The team has implemented the control but needs verification.
+U6,Ensure secure deletion of sensitive data,Fixed,The control appears implemented but documentation is missing.
+U7,Configure HTTPS securely,In Progress,The control appears implemented but documentation is missing.
+U8,Implement secure session management,In Progress,The justification seems incomplete and may need additional evidence.
+U9,Validate all user inputs,In Progress,The control appears implemented but documentation is missing.
+U10,Validate all user inputs,Fixed,More clarity is required on how this control mitigates the threat.
+U11,Encrypt sensitive data using latest encryption mechanisms,In Progress,The control appears implemented but documentation is missing.
+U12,Validate all user inputs,In Progress,The team has implemented the control but needs verification.
+U13,Configure HTTPS securely,In Progress,The team has implemented the control but needs verification.
+U14,Configure HTTPS securely,In Progress,The team has implemented the control but needs verification.
+U15,Implement secure session management,Fixed,More clarity is required on how this control mitigates the threat.
+U16,Enable audit logging for critical events,In Progress,Further review is required to confirm compliance with standards.
+U17,Ensure secure deletion of sensitive data,Not Applicable,The team has implemented the control but needs verification.
+U18,Enable audit logging for critical events,Fixed,The control appears implemented but documentation is missing.
+U19,Validate all user inputs,Fixed,More clarity is required on how this control mitigates the threat.
+U20,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,The justification seems incomplete and may need additional evidence.
+U21,Enable audit logging for critical events,Not Applicable,The justification seems incomplete and may need additional evidence.
+U22,Encrypt sensitive data using latest encryption mechanisms,Fixed,The team has implemented the control but needs verification.
+U23,Validate all user inputs,In Progress,More clarity is required on how this control mitigates the threat.
+U24,Implement secure session management,Fixed,The justification seems incomplete and may need additional evidence.
+U25,Enable audit logging for critical events,In Progress,Further review is required to confirm compliance with standards.
+U26,Configure HTTPS securely,In Progress,The control appears implemented but documentation is missing.
+U27,Configure HTTPS securely,Not Applicable,Further review is required to confirm compliance with standards.
+U28,Validate all user inputs,In Progress,More clarity is required on how this control mitigates the threat.
+U29,Enable audit logging for critical events,Not Applicable,More clarity is required on how this control mitigates the threat.
+U30,Implement secure session management,Fixed,The control appears implemented but documentation is missing.
+U31,Validate all user inputs,In Progress,The justification seems incomplete and may need additional evidence.
+U32,Implement secure session management,Fixed,The justification seems incomplete and may need additional evidence.
+U33,Encrypt sensitive data using latest encryption mechanisms,Fixed,The control appears implemented but documentation is missing.
+U34,Configure HTTPS securely,Not Applicable,More clarity is required on how this control mitigates the threat.
+U35,Enable audit logging for critical events,In Progress,Further review is required to confirm compliance with standards.
+U36,Encrypt sensitive data using latest encryption mechanisms,In Progress,The team has implemented the control but needs verification.
+U37,Implement secure session management,Fixed,Further review is required to confirm compliance with standards.
+U38,Ensure secure deletion of sensitive data,Not Applicable,The justification seems incomplete and may need additional evidence.
+U39,Implement secure session management,Not Applicable,The justification seems incomplete and may need additional evidence.
+U40,Validate all user inputs,In Progress,The control appears implemented but documentation is missing.
+U41,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,The control appears implemented but documentation is missing.
+U42,Implement secure session management,Not Applicable,The justification seems incomplete and may need additional evidence.
+U43,Configure HTTPS securely,Not Applicable,The team has implemented the control but needs verification.
+U44,Encrypt sensitive data using latest encryption mechanisms,Not Applicable,Further review is required to confirm compliance with standards.
+U45,Implement secure session management,Fixed,Further review is required to confirm compliance with standards.
+U46,Encrypt sensitive data using latest encryption mechanisms,Fixed,The control appears implemented but documentation is missing.
+U47,Configure HTTPS securely,Not Applicable,Further review is required to confirm compliance with standards.
+U48,Implement secure session management,Fixed,Further review is required to confirm compliance with standards.
+U49,Configure HTTPS securely,Not Applicable,More clarity is required on how this control mitigates the threat.
+U50,Ensure secure deletion of sensitive data,In Progress,Further review is required to confirm compliance with standards.
