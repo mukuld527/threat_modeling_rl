@@ -33,19 +33,20 @@ The file data/notes.csv contains labeled data column label denotes these value
    python demo.py
 
 
-#### ⚠️ Resolving environment issues 
+#### ⚠️ Tips to resolve environment issues - 
 
 Multiple times I faced environment related issue while running this project. I followed below steps to resolved —
 
 1. conda create -n rl python=3.10 -y
-
 2. conda activate rl
+3. conda install pandas -y
+4. pip install pandas 
+5. pip install numpy torch transformers pandas matplotlib gymnasium
+6. ***Optional Step: To generate new labeled data:*** python data/generate_labeled_data.py
+7. ***Optional Step: To generating new data:*** python data/generate_unlabeled_data.py
+8. python train.py
+9. python demo.py
 
-3. pip install numpy pandas torch transformers matplotlib gymnasium
-
-4. python data/generate_test_data.py
-
-5. python train.py
 
 
 ## Project Structure
