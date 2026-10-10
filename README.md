@@ -2,6 +2,15 @@
 
 This project implements a PPO-based reinforcement learning agent that evaluates threat-modeling justification notes and classifies them as valid, invalid, or requiring clarification.
 
+## Agent Training
+
+Notes.csv contains labeled data column label denotes these value
+0: For valid notes
+1: Invalid notes
+2: Clarification notes
+3: Feedback notes
+
+
 ## How to Run
 
 1. Install dependencies:
@@ -20,14 +29,17 @@ This project implements a PPO-based reinforcement learning agent that evaluates 
 5. Run demo:
    python demo.py
 
-Project Structure —
+
+
+## Project Structure
 
 ```text
 
 threat_modeling_rl/
 │
 ├── data/
-│   ├── notes.csv                       # historical notes + labels
+│   ├── notes.csv                       # Historical notes and labels
+│   ├── unlabeled_notes.csv             # Test data unlabeled
 │
 ├── env/
 │   ├── threat_env.py                   # custom RL environment
