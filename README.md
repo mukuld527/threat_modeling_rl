@@ -14,7 +14,7 @@ The file data/notes.csv contains labeled data column label denotes these value
 3: Feedback notes
 
 
-## How to Run
+## How to Run this project
 
 1. Install dependencies:
    pip install -r requirements.txt
@@ -33,7 +33,7 @@ The file data/notes.csv contains labeled data column label denotes these value
    python demo.py
 
 
-#### Resolving environment issues
+#### ⚠️ Resolving environment issues 
 
 Multiple times I faced environment related issue while running this project. I followed below steps to resolved —
 
