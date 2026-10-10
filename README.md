@@ -4,7 +4,7 @@ This project implements a PPO-based reinforcement learning agent that evaluates 
 
 ## Agent Training
 
-Notes.csv contains labeled data column label denotes these value
+The file data/notes.csv contains labeled data column label denotes these value
 0: For valid notes
 
 1: Invalid notes
@@ -32,6 +32,20 @@ Notes.csv contains labeled data column label denotes these value
 5. Run demo:
    python demo.py
 
+
+#### Resolving environment issues
+
+Multiple times I faced environment related issue while running this project. I followed below steps to resolved —
+
+1. conda create -n rl python=3.10 -y
+
+2. conda activate rl
+
+3. pip install numpy pandas torch transformers matplotlib gymnasium
+
+4. python data/generate_test_data.py
+
+5. python train.py
 
 
 ## Project Structure
@@ -61,3 +75,5 @@ threat_modeling_rl/
 └── README.md                           # instructions for running project
 
 ```
+
+
