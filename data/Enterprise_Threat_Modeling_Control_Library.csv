@@ -1,8 +1,0 @@
-Component Type,Key Threat Models,Primary Frameworks
-Web Application,"STRIDE, OWASP Top10","OWASP,NIST,CIS"
-Mobile App,"Mobile Top10, STRIDE","OWASP Mobile,NIST"
-Desktop App,"STRIDE, ATT&CK","NIST,CIS"
-API,"API Top10, STRIDE","OWASP API,NIST"
-Microservices,"STRIDE, ATT&CK","NIST,Zero Trust"
-Containers,ATT&CK Containers,"CIS,Kubernetes"
-Cloud,Cloud Threat Modeling,"CSA,NIST,CIS"
