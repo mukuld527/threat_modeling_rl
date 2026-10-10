@@ -18,37 +18,46 @@ countermeasure_names = [
 # Status options
 statuses = ["Fixed", "In Progress", "Not Applicable"]
 
-# Notes for each label
-valid_notes = [
-    "The control is implemented as described and meets all requirements.",
-    "Encryption is applied to data in transit and at rest.",
-    "Audit logging is configured according to enterprise standards.",
-    "Input validation is enforced on all user-facing fields.",
-    "HTTPS is configured with TLS 1.3 and strong cipher suites."
+# Application Team Notes (why/how Fixed or Not Applicable)
+app_fixed_notes = [
+    "The control is fully implemented following enterprise guidelines.",
+    "The team applied the required configurations and validated the behavior in QA.",
+    "Implementation aligns with the architecture design and passed all security checks.",
+    "The feature was updated to meet compliance requirements and verified by testing.",
+    "The control was implemented using recommended libraries and validated end-to-end."
 ]
 
-invalid_notes = [
-    "We think this control is implemented but are not fully sure.",
-    "The team will add this later, so marking complete for now.",
-    "This is not needed because our app is internal only.",
-    "We skipped this control due to time constraints.",
-    "The control is not applicable but no justification provided."
+app_not_applicable_notes = [
+    "This control is not applicable because the application does not store sensitive data.",
+    "The feature is internal-only and does not expose external endpoints.",
+    "The application does not handle user authentication, making this control irrelevant.",
+    "The system architecture does not include components requiring this control.",
+    "The control is not applicable due to the application's read-only data flow."
 ]
 
-clarification_notes = [
-    "Need more details on how encryption keys are rotated.",
-    "Clarify how access is revoked for terminated employees.",
-    "Explain how input validation handles nested JSON payloads.",
-    "More information needed on session timeout configuration.",
-    "Clarify how audit logs are protected from tampering."
+app_in_progress_notes = [
+    "The team is currently implementing this control and expects completion next sprint.",
+    "Development is underway, and partial functionality is already in place.",
+    "The control is being integrated into the service layer and requires additional testing.",
+    "Implementation has started but dependencies are still pending.",
+    "The team is working on this control and will provide updates after integration testing."
 ]
 
-feedback_notes = [
-    "Please update the justification to include specific evidence.",
-    "Add screenshots showing where the control is implemented.",
-    "Rewrite the explanation to align with enterprise standards.",
-    "Provide more detail on how this control mitigates the threat.",
-    "Add references to the architecture diagram for clarity."
+# Security Architect Notes (agree/disagree)
+architect_agree_notes = [
+    "Security architect agrees with the justification provided by the application team.",
+    "The explanation is valid and aligns with enterprise security standards.",
+    "The justification is acceptable and meets the required security criteria.",
+    "Architect concurs with the team's assessment and rationale.",
+    "The provided reasoning is sound and approved by the security architect."
+]
+
+architect_disagree_notes = [
+    "Security architect disagrees with the justification and requests additional evidence.",
+    "The explanation is insufficient; further clarification is required.",
+    "Architect does not accept the justification and recommends implementing the control.",
+    "The rationale is incomplete and does not meet security expectations.",
+    "Architect rejects the justification and requires corrective action."
 ]
 
 def generate_row(i):
@@ -56,22 +65,29 @@ def generate_row(i):
     name = random.choice(countermeasure_names)
     status = random.choice(statuses)
 
-    label = random.choice([0, 1, 2, 3])
-
-    if label == 0:
-        note = random.choice(valid_notes)
-    elif label == 1:
-        note = random.choice(invalid_notes)
-    elif label == 2:
-        note = random.choice(clarification_notes)
+    # Application team note based on status
+    if status == "Fixed":
+        app_note = random.choice(app_fixed_notes)
+    elif status == "Not Applicable":
+        app_note = random.choice(app_not_applicable_notes)
     else:
-        note = random.choice(feedback_notes)
+        app_note = random.choice(app_in_progress_notes)
+
+    # Architect agreement or disagreement
+    architect_agrees = random.choice([True, False])
+    if architect_agrees:
+        architect_note = random.choice(architect_agree_notes)
+        label = 0  # valid
+    else:
+        architect_note = random.choice(architect_disagree_notes)
+        label = random.choice([1, 2, 3])  # invalid, clarification, feedback
 
     return {
         "countermeasure_title": title,
         "countermeasure_name": name,
         "status": status,
-        "note": note,
+        "application_team_note": app_note,
+        "security_architect_note": architect_note,
         "label": label
     }
 
