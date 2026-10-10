@@ -6,8 +6,11 @@ This project implements a PPO-based reinforcement learning agent that evaluates 
 
 Notes.csv contains labeled data column label denotes these value
 0: For valid notes
+
 1: Invalid notes
+
 2: Clarification notes
+
 3: Feedback notes
 
 
