@@ -1,6 +1,7 @@
 import pandas as pd
 import random
 
+# This script generates labeled data for countermeasure implementation status and notes by the application team and security architect.
 # Countermeasure names
 countermeasure_names = [
     "Configure HTTPS securely",
@@ -15,10 +16,10 @@ countermeasure_names = [
     "Implement rate limiting for brute-force protection"
 ]
 
-# Status options
+# Status options for countermeasure implementation by the application team
 statuses = ["Fixed", "In Progress", "Not Applicable"]
 
-# Application Team Notes (why/how Fixed or Not Applicable)
+# Application Team Notes (why/how Fixed or Not Applicable) 
 app_fixed_notes = [
     "The control is fully implemented following enterprise guidelines.",
     "The team applied the required configurations and validated the behavior in QA.",
@@ -27,6 +28,7 @@ app_fixed_notes = [
     "The control was implemented using recommended libraries and validated end-to-end."
 ]
 
+# Security Architect Notes (agree/disagree)
 app_not_applicable_notes = [
     "This control is not applicable because the application does not store sensitive data.",
     "The feature is internal-only and does not expose external endpoints.",
@@ -35,6 +37,7 @@ app_not_applicable_notes = [
     "The control is not applicable due to the application's read-only data flow."
 ]
 
+# Security Architect Notes (agree/disagree) for in-progress status
 app_in_progress_notes = [
     "The team is currently implementing this control and expects completion next sprint.",
     "Development is underway, and partial functionality is already in place.",
@@ -43,7 +46,7 @@ app_in_progress_notes = [
     "The team is working on this control and will provide updates after integration testing."
 ]
 
-# Security Architect Notes (agree/disagree)
+# Security Architect Notes (agree/disagree) for fixed or not applicable status
 architect_agree_notes = [
     "Security architect agrees with the justification provided by the application team.",
     "The explanation is valid and aligns with enterprise security standards.",
@@ -52,6 +55,7 @@ architect_agree_notes = [
     "The provided reasoning is sound and approved by the security architect."
 ]
 
+# Security Architect Notes (disagree) for fixed or not applicable status
 architect_disagree_notes = [
     "Security architect disagrees with the justification and requests additional evidence.",
     "The explanation is insufficient; further clarification is required.",
@@ -60,6 +64,7 @@ architect_disagree_notes = [
     "Architect rejects the justification and requires corrective action."
 ]
 
+# Security Architect Notes (disagree) for in-progress status
 def generate_row(i):
     title = f"T{i+1}"
     name = random.choice(countermeasure_names)
@@ -81,7 +86,7 @@ def generate_row(i):
     else:
         architect_note = random.choice(architect_disagree_notes)
         label = random.choice([1, 2, 3])  # invalid, clarification, feedback
-
+        
     return {
         "countermeasure_title": title,
         "countermeasure_name": name,
