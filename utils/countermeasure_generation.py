@@ -8,7 +8,7 @@ Considering the STRIDE threat modeling framework, all OWASP Top 10s, all NIST fr
 Generate a CSV file containing threat modeling countermeasure titles and their corresponding description and remediation solutions. 
 Based on the number of components any desktop or mobile application is using and different hosting platforms
 '''
-
+# Initialize the Excel workbook and worksheet for storing threat countermeasures
 wb=Workbook()
 ws=wb.active
 ws.title='Threat_Countermeasures'
